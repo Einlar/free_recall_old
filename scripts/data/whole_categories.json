@@ -1,0 +1,4790 @@
+[
+    {
+        "type": "animals",
+        "length": 70,
+        "categories": [
+            "animals"
+        ],
+        "words": [
+            {
+                "word": "agnello",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 5.5e-06
+            },
+            {
+                "word": "anatra",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 2.4e-06
+            },
+            {
+                "word": "ape",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 4.9e-06
+            },
+            {
+                "word": "ariete",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 2.95e-06
+            },
+            {
+                "word": "asino",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 4.68e-06
+            },
+            {
+                "word": "balena",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 4.47e-06
+            },
+            {
+                "word": "bue",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 3.8e-06
+            },
+            {
+                "word": "cane",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 8.32e-05
+            },
+            {
+                "word": "canguro",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 1.1e-06
+            },
+            {
+                "word": "capra",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 9.12e-06
+            },
+            {
+                "word": "capriolo",
+                "category": "animals",
+                "syllables": 4,
+                "frequency": 8.91e-07
+            },
+            {
+                "word": "cavallo",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 4.68e-05
+            },
+            {
+                "word": "cerbiatto",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 3.16e-07
+            },
+            {
+                "word": "cinghiale",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 3.55e-06
+            },
+            {
+                "word": "coccodrillo",
+                "category": "animals",
+                "syllables": 4,
+                "frequency": 3.09e-06
+            },
+            {
+                "word": "colombo",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 1.26e-05
+            },
+            {
+                "word": "coniglio",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 9.77e-06
+            },
+            {
+                "word": "criceto",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 1.66e-06
+            },
+            {
+                "word": "delfino",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 5.75e-06
+            },
+            {
+                "word": "elefante",
+                "category": "animals",
+                "syllables": 4,
+                "frequency": 5.01e-06
+            },
+            {
+                "word": "fagiano",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 5.89e-07
+            },
+            {
+                "word": "foca",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 2.75e-06
+            },
+            {
+                "word": "formica",
+                "category": "animals",
+                "syllables": 5,
+                "frequency": 2.04e-06
+            },
+            {
+                "word": "gallo",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 1.1e-05
+            },
+            {
+                "word": "gatto",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 3.31e-05
+            },
+            {
+                "word": "ghiro",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 3.31e-07
+            },
+            {
+                "word": "giaguaro",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 6.76e-07
+            },
+            {
+                "word": "giraffa",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 1.12e-06
+            },
+            {
+                "word": "gorilla",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 3.02e-06
+            },
+            {
+                "word": "gufo",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 2.51e-06
+            },
+            {
+                "word": "insetto",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 3.55e-06
+            },
+            {
+                "word": "ippopotamo",
+                "category": "animals",
+                "syllables": 5,
+                "frequency": 7.24e-07
+            },
+            {
+                "word": "leone",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 3.24e-05
+            },
+            {
+                "word": "lepre",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 1.62e-06
+            },
+            {
+                "word": "lince",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 7.41e-07
+            },
+            {
+                "word": "lupo",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 3.24e-05
+            },
+            {
+                "word": "maiale",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 1.26e-05
+            },
+            {
+                "word": "manzo",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 3.89e-06
+            },
+            {
+                "word": "marmotta",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 8.71e-07
+            },
+            {
+                "word": "mucca",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 5.75e-06
+            },
+            {
+                "word": "mulo",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 2.14e-06
+            },
+            {
+                "word": "oca",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 4.27e-06
+            },
+            {
+                "word": "orso",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 1e-05
+            },
+            {
+                "word": "pecora",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 6.31e-06
+            },
+            {
+                "word": "pesce",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 4.07e-05
+            },
+            {
+                "word": "piccione",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 2.88e-06
+            },
+            {
+                "word": "pinguino",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 2.51e-06
+            },
+            {
+                "word": "pitone",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 7.94e-07
+            },
+            {
+                "word": "preda",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 1.32e-05
+            },
+            {
+                "word": "predatore",
+                "category": "animals",
+                "syllables": 4,
+                "frequency": 1.78e-06
+            },
+            {
+                "word": "puzzola",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 3.24e-07
+            },
+            {
+                "word": "rana",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 4.68e-06
+            },
+            {
+                "word": "rettile",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 9.33e-07
+            },
+            {
+                "word": "riccio",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 3.98e-06
+            },
+            {
+                "word": "rinoceronte",
+                "category": "animals",
+                "syllables": 5,
+                "frequency": 1.2e-06
+            },
+            {
+                "word": "rospo",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 1.95e-06
+            },
+            {
+                "word": "scimmia",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 8.71e-06
+            },
+            {
+                "word": "scoiattolo",
+                "category": "animals",
+                "syllables": 4,
+                "frequency": 1.51e-06
+            },
+            {
+                "word": "scorpione",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 2.88e-06
+            },
+            {
+                "word": "selvaggio",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 7.76e-06
+            },
+            {
+                "word": "serpente",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 8.51e-06
+            },
+            {
+                "word": "stallone",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 1.78e-06
+            },
+            {
+                "word": "struzzo",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 1.12e-06
+            },
+            {
+                "word": "tartaruga",
+                "category": "animals",
+                "syllables": 4,
+                "frequency": 4.68e-06
+            },
+            {
+                "word": "tigre",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 6.76e-06
+            },
+            {
+                "word": "topo",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 6.46e-06
+            },
+            {
+                "word": "toro",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 1.23e-05
+            },
+            {
+                "word": "tucano",
+                "category": "animals",
+                "syllables": 3,
+                "frequency": 2.09e-07
+            },
+            {
+                "word": "volpe",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 7.59e-06
+            },
+            {
+                "word": "zebra",
+                "category": "animals",
+                "syllables": 2,
+                "frequency": 1.07e-06
+            }
+        ]
+    },
+    {
+        "type": "body_parts",
+        "length": 65,
+        "categories": [
+            "body_parts"
+        ],
+        "words": [
+            {
+                "word": "anatomia",
+                "category": "body_parts",
+                "syllables": 5,
+                "frequency": 5.37e-06
+            },
+            {
+                "word": "aorta",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 5.89e-07
+            },
+            {
+                "word": "arterie",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 3.47e-06
+            },
+            {
+                "word": "arto",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 1.55e-06
+            },
+            {
+                "word": "ascelle",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 1.82e-06
+            },
+            {
+                "word": "bocca",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 9.12e-05
+            },
+            {
+                "word": "braccio",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 4.47e-05
+            },
+            {
+                "word": "calcagno",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 5.5e-07
+            },
+            {
+                "word": "capelli",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 8.51e-05
+            },
+            {
+                "word": "capo",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 0.000219
+            },
+            {
+                "word": "caviglia",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 4.79e-06
+            },
+            {
+                "word": "cervello",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 6.17e-05
+            },
+            {
+                "word": "collo",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 4.07e-05
+            },
+            {
+                "word": "corpo",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 0.000204
+            },
+            {
+                "word": "cranio",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 9.12e-06
+            },
+            {
+                "word": "cuore",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 0.000195
+            },
+            {
+                "word": "denti",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 3.47e-05
+            },
+            {
+                "word": "dita",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 2.88e-05
+            },
+            {
+                "word": "faccia",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 0.000224
+            },
+            {
+                "word": "fegato",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 1.55e-05
+            },
+            {
+                "word": "femore",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 1.7e-06
+            },
+            {
+                "word": "gamba",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 2.24e-05
+            },
+            {
+                "word": "ginocchio",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 1.66e-05
+            },
+            {
+                "word": "gola",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 2.19e-05
+            },
+            {
+                "word": "gomito",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 4.68e-06
+            },
+            {
+                "word": "indice",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 2.75e-05
+            },
+            {
+                "word": "intestino",
+                "category": "body_parts",
+                "syllables": 4,
+                "frequency": 3.31e-06
+            },
+            {
+                "word": "labbra",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 2.14e-05
+            },
+            {
+                "word": "lingua",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 0.000178
+            },
+            {
+                "word": "mano",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 0.000282
+            },
+            {
+                "word": "mento",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 5.5e-06
+            },
+            {
+                "word": "muscolo",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 6.92e-06
+            },
+            {
+                "word": "naso",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 3.47e-05
+            },
+            {
+                "word": "nervi",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 1.07e-05
+            },
+            {
+                "word": "nocche",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 5.25e-07
+            },
+            {
+                "word": "nuca",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 3.24e-06
+            },
+            {
+                "word": "occhio",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 7.24e-05
+            },
+            {
+                "word": "orecchio",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 9.12e-06
+            },
+            {
+                "word": "organo",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 2.19e-05
+            },
+            {
+                "word": "orifizio",
+                "category": "body_parts",
+                "syllables": 4,
+                "frequency": 5.62e-07
+            },
+            {
+                "word": "ossa",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 2.04e-05
+            },
+            {
+                "word": "palato",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 3.02e-06
+            },
+            {
+                "word": "palmo",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 3.16e-06
+            },
+            {
+                "word": "pancia",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 1.62e-05
+            },
+            {
+                "word": "pancreas",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 2.24e-06
+            },
+            {
+                "word": "pelle",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 7.08e-05
+            },
+            {
+                "word": "petto",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 2.34e-05
+            },
+            {
+                "word": "piede",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 4.17e-05
+            },
+            {
+                "word": "pollice",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 6.31e-06
+            },
+            {
+                "word": "polmoni",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 7.59e-06
+            },
+            {
+                "word": "reni",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 4.9e-06
+            },
+            {
+                "word": "saliva",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 3.72e-06
+            },
+            {
+                "word": "sangue",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 0.000115
+            },
+            {
+                "word": "scheletro",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 4.07e-06
+            },
+            {
+                "word": "schiena",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 2.51e-05
+            },
+            {
+                "word": "seno",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 2.57e-05
+            },
+            {
+                "word": "spalla",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 1.95e-05
+            },
+            {
+                "word": "stomaco",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 2.45e-05
+            },
+            {
+                "word": "testa",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 0.000224
+            },
+            {
+                "word": "torace",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 4.17e-06
+            },
+            {
+                "word": "unghia",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 2.14e-06
+            },
+            {
+                "word": "vene",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 1.1e-05
+            },
+            {
+                "word": "ventricolo",
+                "category": "body_parts",
+                "syllables": 4,
+                "frequency": 8.32e-07
+            },
+            {
+                "word": "vertebre",
+                "category": "body_parts",
+                "syllables": 3,
+                "frequency": 1.41e-06
+            },
+            {
+                "word": "viso",
+                "category": "body_parts",
+                "syllables": 2,
+                "frequency": 3.98e-05
+            }
+        ]
+    },
+    {
+        "type": "clothes",
+        "length": 64,
+        "categories": [
+            "clothes"
+        ],
+        "words": [
+            {
+                "word": "abbigliamento",
+                "category": "clothes",
+                "syllables": 5,
+                "frequency": 1.51e-05
+            },
+            {
+                "word": "abito",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 3.09e-05
+            },
+            {
+                "word": "accappatoio",
+                "category": "clothes",
+                "syllables": 5,
+                "frequency": 1.2e-06
+            },
+            {
+                "word": "berretto",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 2.24e-06
+            },
+            {
+                "word": "bikini",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 3.55e-06
+            },
+            {
+                "word": "calza",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 2.63e-06
+            },
+            {
+                "word": "calzamaglia",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 3.47e-07
+            },
+            {
+                "word": "calzetto",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 0.0
+            },
+            {
+                "word": "camicia",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.58e-05
+            },
+            {
+                "word": "canottiera",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 1.23e-06
+            },
+            {
+                "word": "cappello",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.74e-05
+            },
+            {
+                "word": "cappotto",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 5.89e-06
+            },
+            {
+                "word": "cappuccio",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 4.57e-06
+            },
+            {
+                "word": "cardigan",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 7.24e-07
+            },
+            {
+                "word": "casacca",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.41e-06
+            },
+            {
+                "word": "chimono",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.05e-08
+            },
+            {
+                "word": "ciabatta",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 8.32e-07
+            },
+            {
+                "word": "cintura",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.1e-05
+            },
+            {
+                "word": "colbacco",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.41e-07
+            },
+            {
+                "word": "colletto",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 2.57e-06
+            },
+            {
+                "word": "corpetto",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 4.07e-07
+            },
+            {
+                "word": "costume",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 2.45e-05
+            },
+            {
+                "word": "cravatta",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 6.61e-06
+            },
+            {
+                "word": "felpa",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 4.17e-06
+            },
+            {
+                "word": "fodera",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 6.31e-07
+            },
+            {
+                "word": "foulard",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 1.2e-06
+            },
+            {
+                "word": "giacca",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 1.58e-05
+            },
+            {
+                "word": "gilet",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 1.62e-06
+            },
+            {
+                "word": "giubotto",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 3.8e-08
+            },
+            {
+                "word": "gonna",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 8.32e-06
+            },
+            {
+                "word": "guanto",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 2.45e-06
+            },
+            {
+                "word": "indossare",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 2e-05
+            },
+            {
+                "word": "indumento",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 1.17e-06
+            },
+            {
+                "word": "intimo",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 9.55e-06
+            },
+            {
+                "word": "jeans",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 1.2e-05
+            },
+            {
+                "word": "maglia",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 3.24e-05
+            },
+            {
+                "word": "maglietta",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.45e-05
+            },
+            {
+                "word": "maglione",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 4.07e-06
+            },
+            {
+                "word": "maniche",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 8.13e-06
+            },
+            {
+                "word": "mantello",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 6.17e-06
+            },
+            {
+                "word": "maschera",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 2.19e-05
+            },
+            {
+                "word": "mutande",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.05e-05
+            },
+            {
+                "word": "panciotto",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 2.24e-07
+            },
+            {
+                "word": "pantofole",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 1.29e-06
+            },
+            {
+                "word": "pareo",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.78e-07
+            },
+            {
+                "word": "perizoma",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 1.12e-06
+            },
+            {
+                "word": "pettorina",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 2.04e-07
+            },
+            {
+                "word": "pigiama",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 4.79e-06
+            },
+            {
+                "word": "reggiseno",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 4.17e-06
+            },
+            {
+                "word": "salopette",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 3.47e-07
+            },
+            {
+                "word": "sandalo",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 7.76e-07
+            },
+            {
+                "word": "scarpa",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 9.55e-06
+            },
+            {
+                "word": "scialle",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 6.61e-07
+            },
+            {
+                "word": "soprabito",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 7.41e-07
+            },
+            {
+                "word": "sottoveste",
+                "category": "clothes",
+                "syllables": 4,
+                "frequency": 3.72e-07
+            },
+            {
+                "word": "spacco",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 2.29e-06
+            },
+            {
+                "word": "spallina",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.58e-07
+            },
+            {
+                "word": "tonaca",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 6.76e-07
+            },
+            {
+                "word": "toppa",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 9.77e-07
+            },
+            {
+                "word": "tunica",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 1.62e-06
+            },
+            {
+                "word": "tuta",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 7.59e-06
+            },
+            {
+                "word": "veste",
+                "category": "clothes",
+                "syllables": 2,
+                "frequency": 1.91e-05
+            },
+            {
+                "word": "vestito",
+                "category": "clothes",
+                "syllables": 3,
+                "frequency": 3.31e-05
+            },
+            {
+                "word": "zip",
+                "category": "clothes",
+                "syllables": 1,
+                "frequency": 2.24e-06
+            }
+        ]
+    },
+    {
+        "type": "colors",
+        "length": 64,
+        "categories": [
+            "colors"
+        ],
+        "words": [
+            {
+                "word": "acquamarina",
+                "category": "colors",
+                "syllables": 5,
+                "frequency": 1.78e-07
+            },
+            {
+                "word": "acrilico",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 6.76e-07
+            },
+            {
+                "word": "arancione",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 8.91e-06
+            },
+            {
+                "word": "argenteo",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 4.37e-07
+            },
+            {
+                "word": "avorio",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 6.31e-06
+            },
+            {
+                "word": "azzurro",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 1.78e-05
+            },
+            {
+                "word": "beige",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 1.58e-06
+            },
+            {
+                "word": "bianco",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 9.77e-05
+            },
+            {
+                "word": "blu",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 6.17e-05
+            },
+            {
+                "word": "bronzo",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 1.7e-05
+            },
+            {
+                "word": "bruno",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 2.57e-05
+            },
+            {
+                "word": "cachi",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 8.13e-07
+            },
+            {
+                "word": "celeste",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 1.12e-05
+            },
+            {
+                "word": "ceruleo",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 1.32e-07
+            },
+            {
+                "word": "chiaro",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 0.000123
+            },
+            {
+                "word": "ciano",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 1.29e-06
+            },
+            {
+                "word": "cobalto",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 1.26e-06
+            },
+            {
+                "word": "colorante",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 1.17e-06
+            },
+            {
+                "word": "colore",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 0.000107
+            },
+            {
+                "word": "corallo",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 2e-06
+            },
+            {
+                "word": "cremisi",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 6.92e-07
+            },
+            {
+                "word": "cristallino",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 2.57e-06
+            },
+            {
+                "word": "fucsia",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 1.05e-06
+            },
+            {
+                "word": "giallo",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 3.31e-05
+            },
+            {
+                "word": "grigio",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 1.82e-05
+            },
+            {
+                "word": "indaco",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 1.05e-06
+            },
+            {
+                "word": "lilla",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 2e-06
+            },
+            {
+                "word": "lime",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 1.86e-06
+            },
+            {
+                "word": "lucido",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 6.76e-06
+            },
+            {
+                "word": "luminoso",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 6.92e-06
+            },
+            {
+                "word": "magenta",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 2e-06
+            },
+            {
+                "word": "mandarino",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 2.45e-06
+            },
+            {
+                "word": "marrone",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 1.1e-05
+            },
+            {
+                "word": "nero",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 0.000112
+            },
+            {
+                "word": "ocra",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 7.76e-07
+            },
+            {
+                "word": "olivastro",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 2.14e-07
+            },
+            {
+                "word": "oltremare",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 1.62e-06
+            },
+            {
+                "word": "opaco",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 1.66e-06
+            },
+            {
+                "word": "oro",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 0.000138
+            },
+            {
+                "word": "pallido",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 3.24e-06
+            },
+            {
+                "word": "pittore",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 1.78e-05
+            },
+            {
+                "word": "platino",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 6.46e-06
+            },
+            {
+                "word": "porpora",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 2.09e-06
+            },
+            {
+                "word": "purpureo",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 2.82e-07
+            },
+            {
+                "word": "rosa",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 6.61e-05
+            },
+            {
+                "word": "rosso",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 9.12e-05
+            },
+            {
+                "word": "rubino",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 3.09e-06
+            },
+            {
+                "word": "ruggine",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 2.63e-06
+            },
+            {
+                "word": "scarlatto",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 5.13e-07
+            },
+            {
+                "word": "scuro",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 1.32e-05
+            },
+            {
+                "word": "sfumatura",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 2.34e-06
+            },
+            {
+                "word": "smalto",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 4.9e-06
+            },
+            {
+                "word": "smeraldo",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 2e-06
+            },
+            {
+                "word": "tinta",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 6.31e-06
+            },
+            {
+                "word": "tonalit\u00e0",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 5.25e-06
+            },
+            {
+                "word": "trasparente",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 1.2e-05
+            },
+            {
+                "word": "turchese",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 8.91e-07
+            },
+            {
+                "word": "variopinto",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 2.63e-07
+            },
+            {
+                "word": "verde",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 7.08e-05
+            },
+            {
+                "word": "vermiglio",
+                "category": "colors",
+                "syllables": 4,
+                "frequency": 3.8e-07
+            },
+            {
+                "word": "vernice",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 6.76e-06
+            },
+            {
+                "word": "viola",
+                "category": "colors",
+                "syllables": 2,
+                "frequency": 2.4e-05
+            },
+            {
+                "word": "vivace",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 8.91e-06
+            },
+            {
+                "word": "zaffiro",
+                "category": "colors",
+                "syllables": 3,
+                "frequency": 1.05e-06
+            }
+        ]
+    },
+    {
+        "type": "furniture+furnishing/fittings",
+        "length": 64,
+        "categories": [
+            "furniture+furnishing/fittings"
+        ],
+        "words": [
+            {
+                "word": "anta",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 7.76e-07
+            },
+            {
+                "word": "appendiabiti",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 1.86e-07
+            },
+            {
+                "word": "armadio",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 7.41e-06
+            },
+            {
+                "word": "arredamento",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 3.55e-06
+            },
+            {
+                "word": "arredo",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 2.04e-06
+            },
+            {
+                "word": "aspirapolvere",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 6,
+                "frequency": 3.02e-06
+            },
+            {
+                "word": "attaccapanni",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 2.24e-07
+            },
+            {
+                "word": "baule",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 1.78e-06
+            },
+            {
+                "word": "bid\u00e8",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 1.78e-07
+            },
+            {
+                "word": "candelabro",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 4.17e-07
+            },
+            {
+                "word": "candeliere",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 3.02e-07
+            },
+            {
+                "word": "cassettiera",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 3.89e-07
+            },
+            {
+                "word": "cassetto",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 7.76e-06
+            },
+            {
+                "word": "centrotavola",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 2.57e-07
+            },
+            {
+                "word": "comodino",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 2.69e-06
+            },
+            {
+                "word": "com\u00f2",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 5.01e-07
+            },
+            {
+                "word": "condizionatore",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 6,
+                "frequency": 2.4e-06
+            },
+            {
+                "word": "copriletto",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 3.31e-07
+            },
+            {
+                "word": "cornice",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 1.05e-05
+            },
+            {
+                "word": "credenza",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 5.25e-06
+            },
+            {
+                "word": "culla",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 6.03e-06
+            },
+            {
+                "word": "cuscino",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 7.24e-06
+            },
+            {
+                "word": "divano",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 2.14e-05
+            },
+            {
+                "word": "doccia",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 2.88e-05
+            },
+            {
+                "word": "fioriera",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 10,
+                "frequency": 1.38e-07
+            },
+            {
+                "word": "frigorifero",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 4.9e-06
+            },
+            {
+                "word": "guardaroba",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 3.39e-06
+            },
+            {
+                "word": "lampada",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 7.59e-06
+            },
+            {
+                "word": "lampadario",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 1.1e-06
+            },
+            {
+                "word": "lavastoviglie",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 2.45e-06
+            },
+            {
+                "word": "lavatrice",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 5.75e-06
+            },
+            {
+                "word": "lenzuola",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 4.27e-06
+            },
+            {
+                "word": "letto",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 0.000251
+            },
+            {
+                "word": "libreria",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 2.14e-05
+            },
+            {
+                "word": "materasso",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 4.07e-06
+            },
+            {
+                "word": "mensola",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 1.51e-06
+            },
+            {
+                "word": "minibar",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 3.39e-07
+            },
+            {
+                "word": "mobiletto",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 4.47e-07
+            },
+            {
+                "word": "ornamento",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 1e-06
+            },
+            {
+                "word": "orologio",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 1.7e-05
+            },
+            {
+                "word": "piumino",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 1.07e-06
+            },
+            {
+                "word": "poltrona",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 9.33e-06
+            },
+            {
+                "word": "posacenere",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 8.32e-07
+            },
+            {
+                "word": "quadro",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 4.57e-05
+            },
+            {
+                "word": "scaffale",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 2.88e-06
+            },
+            {
+                "word": "scaldabagno",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 4.57e-07
+            },
+            {
+                "word": "scrivania",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 1e-05
+            },
+            {
+                "word": "sedia",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 1.82e-05
+            },
+            {
+                "word": "soprammobile",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 3.24e-07
+            },
+            {
+                "word": "specchio",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 2.69e-05
+            },
+            {
+                "word": "stufa",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 6.31e-06
+            },
+            {
+                "word": "suppellettile",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 8.71e-08
+            },
+            {
+                "word": "tavolo",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 4.57e-05
+            },
+            {
+                "word": "tazza",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 9.33e-06
+            },
+            {
+                "word": "televisore",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 4.27e-06
+            },
+            {
+                "word": "tenda",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 1.2e-05
+            },
+            {
+                "word": "termosifone",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 6.92e-07
+            },
+            {
+                "word": "tovaglia",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 1.15e-06
+            },
+            {
+                "word": "vasca",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 1.32e-05
+            },
+            {
+                "word": "vaso",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 2,
+                "frequency": 1.17e-05
+            },
+            {
+                "word": "ventilatore",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 5,
+                "frequency": 2.34e-06
+            },
+            {
+                "word": "vetrina",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 5.37e-06
+            },
+            {
+                "word": "zanzariera",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 4,
+                "frequency": 3.55e-07
+            },
+            {
+                "word": "zerbino",
+                "category": "furniture+furnishing/fittings",
+                "syllables": 3,
+                "frequency": 1.41e-06
+            }
+        ]
+    },
+    {
+        "type": "housing_buildings",
+        "length": 64,
+        "categories": [
+            "housing_buildings"
+        ],
+        "words": [
+            {
+                "word": "abitare",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 5.89e-06
+            },
+            {
+                "word": "abitazione",
+                "category": "housing_buildings",
+                "syllables": 5,
+                "frequency": 1.41e-05
+            },
+            {
+                "word": "accogliente",
+                "category": "housing_buildings",
+                "syllables": 5,
+                "frequency": 3.89e-06
+            },
+            {
+                "word": "accogliere",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 1.48e-05
+            },
+            {
+                "word": "alloggio",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 9.55e-06
+            },
+            {
+                "word": "appartamento",
+                "category": "housing_buildings",
+                "syllables": 5,
+                "frequency": 3.89e-05
+            },
+            {
+                "word": "ascensore",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 8.51e-06
+            },
+            {
+                "word": "atrio",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 1.7e-06
+            },
+            {
+                "word": "bagno",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 7.24e-05
+            },
+            {
+                "word": "balcone",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 1.17e-05
+            },
+            {
+                "word": "baracca",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 4.9e-06
+            },
+            {
+                "word": "camera",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 0.000126
+            },
+            {
+                "word": "cancello",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 9.55e-06
+            },
+            {
+                "word": "cantina",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 1e-05
+            },
+            {
+                "word": "casa",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 0.000759
+            },
+            {
+                "word": "castello",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 5.01e-05
+            },
+            {
+                "word": "casupola",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 1.05e-07
+            },
+            {
+                "word": "catapecchia",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 1.55e-07
+            },
+            {
+                "word": "chiostro",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 3.55e-06
+            },
+            {
+                "word": "colonnato",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 5.25e-07
+            },
+            {
+                "word": "condominio",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 9.12e-06
+            },
+            {
+                "word": "corridoio",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 1.17e-05
+            },
+            {
+                "word": "cortile",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 1.55e-05
+            },
+            {
+                "word": "costruzione",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 9.12e-05
+            },
+            {
+                "word": "dimora",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 1.1e-05
+            },
+            {
+                "word": "domicilio",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 1.07e-05
+            },
+            {
+                "word": "edificio",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 3.39e-05
+            },
+            {
+                "word": "fatiscente",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 6.76e-07
+            },
+            {
+                "word": "finestra",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 3.8e-05
+            },
+            {
+                "word": "hall",
+                "category": "housing_buildings",
+                "syllables": 6,
+                "frequency": 7.59e-06
+            },
+            {
+                "word": "hotel",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 4.47e-05
+            },
+            {
+                "word": "ingresso",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 5.13e-05
+            },
+            {
+                "word": "locale",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 0.000126
+            },
+            {
+                "word": "loggia",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 5.01e-06
+            },
+            {
+                "word": "magazzino",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 1.41e-05
+            },
+            {
+                "word": "magione",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 8.71e-07
+            },
+            {
+                "word": "mansarda",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 6.61e-07
+            },
+            {
+                "word": "muro",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 5.13e-05
+            },
+            {
+                "word": "palazzo",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 8.71e-05
+            },
+            {
+                "word": "parete",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 2.45e-05
+            },
+            {
+                "word": "pavimento",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 2e-05
+            },
+            {
+                "word": "porta",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 0.000257
+            },
+            {
+                "word": "portico",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 4.79e-06
+            },
+            {
+                "word": "residenza",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 3.02e-05
+            },
+            {
+                "word": "rifugio",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 2.45e-05
+            },
+            {
+                "word": "ripostiglio",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 1.91e-06
+            },
+            {
+                "word": "rudere",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 7.59e-07
+            },
+            {
+                "word": "sala",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 7.76e-05
+            },
+            {
+                "word": "salone",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 1.41e-05
+            },
+            {
+                "word": "salotto",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 9.33e-06
+            },
+            {
+                "word": "scala",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 5.37e-05
+            },
+            {
+                "word": "scantinato",
+                "category": "housing_buildings",
+                "syllables": 4,
+                "frequency": 9.12e-07
+            },
+            {
+                "word": "seminterrato",
+                "category": "housing_buildings",
+                "syllables": 5,
+                "frequency": 2.14e-06
+            },
+            {
+                "word": "soffitta",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 2.57e-06
+            },
+            {
+                "word": "soffitto",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 1.05e-05
+            },
+            {
+                "word": "soggiorno",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 2.09e-05
+            },
+            {
+                "word": "solaio",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 8.13e-07
+            },
+            {
+                "word": "sontuosa",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 7.59e-07
+            },
+            {
+                "word": "spazioso",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 8.13e-07
+            },
+            {
+                "word": "terrazzo",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 4.07e-06
+            },
+            {
+                "word": "tetto",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 2.95e-05
+            },
+            {
+                "word": "veranda",
+                "category": "housing_buildings",
+                "syllables": 3,
+                "frequency": 1.95e-06
+            },
+            {
+                "word": "villa",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 5.75e-05
+            },
+            {
+                "word": "volta",
+                "category": "housing_buildings",
+                "syllables": 2,
+                "frequency": 0.000741
+            }
+        ]
+    },
+    {
+        "type": "plants",
+        "length": 64,
+        "categories": [
+            "plants"
+        ],
+        "words": [
+            {
+                "word": "abete",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 2.14e-06
+            },
+            {
+                "word": "albero",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 3.24e-05
+            },
+            {
+                "word": "ananas",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 3.16e-06
+            },
+            {
+                "word": "arbusto",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 6.61e-07
+            },
+            {
+                "word": "azalea",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 3.24e-07
+            },
+            {
+                "word": "begonia",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 8.51e-08
+            },
+            {
+                "word": "bosco",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 2.95e-05
+            },
+            {
+                "word": "cactus",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 1.86e-06
+            },
+            {
+                "word": "camelia",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 3.24e-07
+            },
+            {
+                "word": "camomilla",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 1.78e-06
+            },
+            {
+                "word": "campanula",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 1.26e-07
+            },
+            {
+                "word": "carciofo",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 6.46e-07
+            },
+            {
+                "word": "cedro",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 1.32e-06
+            },
+            {
+                "word": "chioma",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 2.4e-06
+            },
+            {
+                "word": "ciliegio",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 1.26e-06
+            },
+            {
+                "word": "cipresso",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 5.75e-07
+            },
+            {
+                "word": "fico",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 9.12e-06
+            },
+            {
+                "word": "fiordaliso",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 4.79e-07
+            },
+            {
+                "word": "foglia",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 7.94e-06
+            },
+            {
+                "word": "foresta",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 2.29e-05
+            },
+            {
+                "word": "garofano",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 1.07e-06
+            },
+            {
+                "word": "gelsomino",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 1.15e-06
+            },
+            {
+                "word": "ghianda",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 3.72e-07
+            },
+            {
+                "word": "giglio",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 4.79e-06
+            },
+            {
+                "word": "girasole",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 1.82e-06
+            },
+            {
+                "word": "iris",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 6.03e-06
+            },
+            {
+                "word": "limone",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 1.02e-05
+            },
+            {
+                "word": "linfa",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 2.63e-06
+            },
+            {
+                "word": "loto",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 1.86e-06
+            },
+            {
+                "word": "margherita",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 1.55e-05
+            },
+            {
+                "word": "melograno",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 6.46e-07
+            },
+            {
+                "word": "menta",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 4.68e-06
+            },
+            {
+                "word": "mimosa",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 9.33e-07
+            },
+            {
+                "word": "narciso",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 1.45e-06
+            },
+            {
+                "word": "nettare",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 1.48e-06
+            },
+            {
+                "word": "ninfea",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 1.23e-07
+            },
+            {
+                "word": "noce",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 5.62e-06
+            },
+            {
+                "word": "orchidea",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 9.12e-07
+            },
+            {
+                "word": "ortensia",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 3.89e-07
+            },
+            {
+                "word": "ortica",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 4.9e-07
+            },
+            {
+                "word": "palma",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 1.32e-05
+            },
+            {
+                "word": "papavero",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 8.91e-07
+            },
+            {
+                "word": "peonia",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 1.41e-07
+            },
+            {
+                "word": "petalo",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 5.13e-07
+            },
+            {
+                "word": "pino",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 1.07e-05
+            },
+            {
+                "word": "prezzemolo",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 2.63e-06
+            },
+            {
+                "word": "primula",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 2.88e-07
+            },
+            {
+                "word": "quercia",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 5.75e-06
+            },
+            {
+                "word": "radici",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 2.45e-05
+            },
+            {
+                "word": "rami",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 1.29e-05
+            },
+            {
+                "word": "ribes",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 5.75e-07
+            },
+            {
+                "word": "rosa",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 6.61e-05
+            },
+            {
+                "word": "salice",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 1.23e-06
+            },
+            {
+                "word": "salvia",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 2.24e-06
+            },
+            {
+                "word": "seme",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 8.32e-06
+            },
+            {
+                "word": "sempreverde",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 7.41e-07
+            },
+            {
+                "word": "stelo",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 1.7e-06
+            },
+            {
+                "word": "tabacco",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 9.12e-06
+            },
+            {
+                "word": "tronco",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 7.24e-06
+            },
+            {
+                "word": "tulipano",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 5.75e-07
+            },
+            {
+                "word": "ulivo",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 2.75e-06
+            },
+            {
+                "word": "vite",
+                "category": "plants",
+                "syllables": 2,
+                "frequency": 4.68e-05
+            },
+            {
+                "word": "zafferano",
+                "category": "plants",
+                "syllables": 4,
+                "frequency": 1.82e-06
+            },
+            {
+                "word": "zucchina",
+                "category": "plants",
+                "syllables": 3,
+                "frequency": 7.41e-07
+            }
+        ]
+    },
+    {
+        "type": "stationery",
+        "length": 65,
+        "categories": [
+            "stationery"
+        ],
+        "words": [
+            {
+                "word": "agenda",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 1.12e-05
+            },
+            {
+                "word": "appunto",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 8.13e-05
+            },
+            {
+                "word": "astuccio",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 1.02e-06
+            },
+            {
+                "word": "bic",
+                "category": "stationery",
+                "syllables": 1,
+                "frequency": 1.2e-06
+            },
+            {
+                "word": "biglietto",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 4.37e-05
+            },
+            {
+                "word": "biro",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 4.79e-07
+            },
+            {
+                "word": "calamaio",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 2.57e-07
+            },
+            {
+                "word": "calligrafia",
+                "category": "stationery",
+                "syllables": 5,
+                "frequency": 2.19e-06
+            },
+            {
+                "word": "cancellare",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 2e-05
+            },
+            {
+                "word": "carta",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 0.00012
+            },
+            {
+                "word": "cartoleria",
+                "category": "stationery",
+                "syllables": 5,
+                "frequency": 5.25e-07
+            },
+            {
+                "word": "cera",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 6.76e-06
+            },
+            {
+                "word": "china",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 1.15e-05
+            },
+            {
+                "word": "clip",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 5.37e-06
+            },
+            {
+                "word": "colla",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 9.55e-06
+            },
+            {
+                "word": "colorare",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 2.04e-06
+            },
+            {
+                "word": "colori",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 6.17e-05
+            },
+            {
+                "word": "compasso",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 1.2e-06
+            },
+            {
+                "word": "diario",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 2.19e-05
+            },
+            {
+                "word": "disegnare",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 9.77e-06
+            },
+            {
+                "word": "documento",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 6.31e-05
+            },
+            {
+                "word": "etichetta",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 1.29e-05
+            },
+            {
+                "word": "evidenziatore",
+                "category": "stationery",
+                "syllables": 6,
+                "frequency": 2e-07
+            },
+            {
+                "word": "fascicolo",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 8.13e-06
+            },
+            {
+                "word": "fermaglio",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 3.39e-07
+            },
+            {
+                "word": "foglio",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 2.14e-05
+            },
+            {
+                "word": "forbici",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 2.82e-06
+            },
+            {
+                "word": "goniometro",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 8.51e-08
+            },
+            {
+                "word": "graffetta",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 1.86e-07
+            },
+            {
+                "word": "grafite",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 8.91e-07
+            },
+            {
+                "word": "inchiostro",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 6.17e-06
+            },
+            {
+                "word": "lapis",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 5.25e-07
+            },
+            {
+                "word": "leggere",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 0.000145
+            },
+            {
+                "word": "libro",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 0.000229
+            },
+            {
+                "word": "matita",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 6.46e-06
+            },
+            {
+                "word": "mina",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 7.24e-06
+            },
+            {
+                "word": "opuscolo",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 1.95e-06
+            },
+            {
+                "word": "pagina",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 0.000135
+            },
+            {
+                "word": "penna",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 1.74e-05
+            },
+            {
+                "word": "pennarello",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 1.12e-06
+            },
+            {
+                "word": "pennello",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 5.01e-06
+            },
+            {
+                "word": "pennino",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 6.92e-07
+            },
+            {
+                "word": "pinzatrice",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 1.12e-07
+            },
+            {
+                "word": "portamine",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 3.02e-08
+            },
+            {
+                "word": "post-it",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 4.85e-05
+            },
+            {
+                "word": "puntine",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 2.69e-07
+            },
+            {
+                "word": "quaderno",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 4.9e-06
+            },
+            {
+                "word": "quadretti",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 1e-06
+            },
+            {
+                "word": "raccoglitore",
+                "category": "stationery",
+                "syllables": 5,
+                "frequency": 1.51e-06
+            },
+            {
+                "word": "riga",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 1.32e-05
+            },
+            {
+                "word": "righello",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 5.13e-07
+            },
+            {
+                "word": "scolorina",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 0.0
+            },
+            {
+                "word": "scrittura",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 3.39e-05
+            },
+            {
+                "word": "scrivere",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 0.00012
+            },
+            {
+                "word": "scuola",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 0.000288
+            },
+            {
+                "word": "segnalibro",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 5.01e-07
+            },
+            {
+                "word": "sottolineare",
+                "category": "stationery",
+                "syllables": 6,
+                "frequency": 1.7e-05
+            },
+            {
+                "word": "spillatrice",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 1.82e-07
+            },
+            {
+                "word": "squadretta",
+                "category": "stationery",
+                "syllables": 3,
+                "frequency": 1.78e-07
+            },
+            {
+                "word": "stilo",
+                "category": "stationery",
+                "syllables": 2,
+                "frequency": 1.58e-06
+            },
+            {
+                "word": "stilografica",
+                "category": "stationery",
+                "syllables": 5,
+                "frequency": 3.31e-07
+            },
+            {
+                "word": "taccuino",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 1.91e-06
+            },
+            {
+                "word": "tagliacarte",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 1.15e-07
+            },
+            {
+                "word": "temperamatite",
+                "category": "stationery",
+                "syllables": 6,
+                "frequency": 6.76e-08
+            },
+            {
+                "word": "temperino",
+                "category": "stationery",
+                "syllables": 4,
+                "frequency": 2.57e-07
+            }
+        ]
+    },
+    {
+        "type": "weather",
+        "length": 66,
+        "categories": [
+            "weather"
+        ],
+        "words": [
+            {
+                "word": "acqua",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 0.000195
+            },
+            {
+                "word": "acquazzone",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 6.46e-07
+            },
+            {
+                "word": "afa",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 1.05e-06
+            },
+            {
+                "word": "alluvione",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 2.88e-06
+            },
+            {
+                "word": "aria",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 0.000105
+            },
+            {
+                "word": "assolato",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 1.41e-07
+            },
+            {
+                "word": "atmosfera",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 2e-05
+            },
+            {
+                "word": "bonaccia",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 2.04e-07
+            },
+            {
+                "word": "bora",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 2.14e-06
+            },
+            {
+                "word": "brezza",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 2.4e-06
+            },
+            {
+                "word": "brina",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 3.72e-07
+            },
+            {
+                "word": "bufera",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 2.34e-06
+            },
+            {
+                "word": "burrasca",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 7.94e-07
+            },
+            {
+                "word": "caldo",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 6.31e-05
+            },
+            {
+                "word": "calma",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 2.95e-05
+            },
+            {
+                "word": "ciclone",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 2.09e-06
+            },
+            {
+                "word": "clima",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 4.27e-05
+            },
+            {
+                "word": "coperto",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 2.09e-05
+            },
+            {
+                "word": "diluvio",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 3.39e-06
+            },
+            {
+                "word": "estate",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 6.92e-05
+            },
+            {
+                "word": "folata",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 3.8e-07
+            },
+            {
+                "word": "foschia",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 8.71e-07
+            },
+            {
+                "word": "freddo",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 5.75e-05
+            },
+            {
+                "word": "fulmine",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 6.17e-06
+            },
+            {
+                "word": "gelido",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 1.91e-06
+            },
+            {
+                "word": "gelo",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 4.07e-06
+            },
+            {
+                "word": "grandine",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 2.09e-06
+            },
+            {
+                "word": "inondazione",
+                "category": "weather",
+                "syllables": 5,
+                "frequency": 1.45e-06
+            },
+            {
+                "word": "intemperie",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 1.32e-06
+            },
+            {
+                "word": "maestrale",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 7.08e-07
+            },
+            {
+                "word": "mareggiata",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 2.14e-07
+            },
+            {
+                "word": "meteo",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 1.2e-05
+            },
+            {
+                "word": "mite",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 3.72e-06
+            },
+            {
+                "word": "monsone",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 2.57e-07
+            },
+            {
+                "word": "mutevole",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 8.71e-07
+            },
+            {
+                "word": "nebbia",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 1.17e-05
+            },
+            {
+                "word": "neve",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 2.88e-05
+            },
+            {
+                "word": "nevicata",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 1.26e-06
+            },
+            {
+                "word": "nubifragio",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 3.98e-07
+            },
+            {
+                "word": "nuvola",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 4.9e-06
+            },
+            {
+                "word": "ombrello",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 4.47e-06
+            },
+            {
+                "word": "perturbazione",
+                "category": "weather",
+                "syllables": 5,
+                "frequency": 1.17e-06
+            },
+            {
+                "word": "pioggia",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 3.55e-05
+            },
+            {
+                "word": "pressione",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 6.92e-05
+            },
+            {
+                "word": "previsione",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 1.38e-05
+            },
+            {
+                "word": "raffica",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 3.55e-06
+            },
+            {
+                "word": "scirocco",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 1.05e-06
+            },
+            {
+                "word": "soffiare",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 1.66e-06
+            },
+            {
+                "word": "sole",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 0.000135
+            },
+            {
+                "word": "soleggiato",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 5.89e-07
+            },
+            {
+                "word": "temperatura",
+                "category": "weather",
+                "syllables": 5,
+                "frequency": 4.17e-05
+            },
+            {
+                "word": "tempesta",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 1.91e-05
+            },
+            {
+                "word": "tempo",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 0.000955
+            },
+            {
+                "word": "temporale",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 2.09e-05
+            },
+            {
+                "word": "tiepido",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 1.1e-06
+            },
+            {
+                "word": "tifone",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 9.77e-07
+            },
+            {
+                "word": "tornado",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 2.63e-06
+            },
+            {
+                "word": "torrido",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 6.17e-07
+            },
+            {
+                "word": "tramontana",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 6.03e-07
+            },
+            {
+                "word": "tuono",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 2.75e-06
+            },
+            {
+                "word": "turbine",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 3.72e-06
+            },
+            {
+                "word": "umidit\u00e0",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 1.15e-05
+            },
+            {
+                "word": "uragano",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 3.63e-06
+            },
+            {
+                "word": "variabile",
+                "category": "weather",
+                "syllables": 4,
+                "frequency": 1.45e-05
+            },
+            {
+                "word": "vento",
+                "category": "weather",
+                "syllables": 2,
+                "frequency": 5.13e-05
+            },
+            {
+                "word": "zefiro",
+                "category": "weather",
+                "syllables": 3,
+                "frequency": 2.51e-07
+            }
+        ]
+    },
+    {
+        "type": "vehicles",
+        "length": 64,
+        "categories": [
+            "vehicles"
+        ],
+        "words": [
+            {
+                "word": "aereo",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 5.37e-05
+            },
+            {
+                "word": "aeroporto",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 2.04e-05
+            },
+            {
+                "word": "ambulanza",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 6.17e-06
+            },
+            {
+                "word": "autista",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 9.77e-06
+            },
+            {
+                "word": "auto",
+                "category": "vehicles",
+                "syllables": 2,
+                "frequency": 0.000151
+            },
+            {
+                "word": "autobus",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 2.88e-05
+            },
+            {
+                "word": "autocisterna",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 1.15e-07
+            },
+            {
+                "word": "automobile",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 7.94e-06
+            },
+            {
+                "word": "autostrada",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 1.26e-05
+            },
+            {
+                "word": "barca",
+                "category": "vehicles",
+                "syllables": 2,
+                "frequency": 2.45e-05
+            },
+            {
+                "word": "battello",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 2.04e-06
+            },
+            {
+                "word": "benzina",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 2.09e-05
+            },
+            {
+                "word": "bicicletta",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 1.48e-05
+            },
+            {
+                "word": "binari",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 7.41e-06
+            },
+            {
+                "word": "biplano",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 1.78e-07
+            },
+            {
+                "word": "boeing",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 1.82e-06
+            },
+            {
+                "word": "caravan",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 1.07e-06
+            },
+            {
+                "word": "carburante",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 1.17e-05
+            },
+            {
+                "word": "carburatore",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 6.61e-07
+            },
+            {
+                "word": "ciclomotore",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 2.24e-07
+            },
+            {
+                "word": "convoglio",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 3.72e-06
+            },
+            {
+                "word": "corriera",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 8.91e-07
+            },
+            {
+                "word": "decollo",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 2.75e-06
+            },
+            {
+                "word": "deltaplano",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 2.88e-07
+            },
+            {
+                "word": "elicottero",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 7.94e-06
+            },
+            {
+                "word": "ferrovia",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 9.55e-06
+            },
+            {
+                "word": "filobus",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 4.57e-07
+            },
+            {
+                "word": "flotta",
+                "category": "vehicles",
+                "syllables": 2,
+                "frequency": 1.2e-05
+            },
+            {
+                "word": "fuoristrada",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 1.74e-06
+            },
+            {
+                "word": "furgone",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 5.62e-06
+            },
+            {
+                "word": "gasolio",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 2.34e-06
+            },
+            {
+                "word": "gommone",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 2.14e-06
+            },
+            {
+                "word": "jeep",
+                "category": "vehicles",
+                "syllables": 2,
+                "frequency": 3.09e-06
+            },
+            {
+                "word": "jet",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 6.03e-06
+            },
+            {
+                "word": "limousine",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 1.35e-06
+            },
+            {
+                "word": "locomotiva",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 1.74e-06
+            },
+            {
+                "word": "macchina",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 0.000132
+            },
+            {
+                "word": "metropolitana",
+                "category": "vehicles",
+                "syllables": 6,
+                "frequency": 1.95e-05
+            },
+            {
+                "word": "monopattino",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 7.76e-07
+            },
+            {
+                "word": "motocicletta",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 1.95e-06
+            },
+            {
+                "word": "motorino",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 2.69e-06
+            },
+            {
+                "word": "motoscafo",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 7.59e-07
+            },
+            {
+                "word": "peschereccio",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 1.17e-06
+            },
+            {
+                "word": "pilota",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 2.19e-05
+            },
+            {
+                "word": "pullman",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 1.05e-05
+            },
+            {
+                "word": "rimorchio",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 2.24e-06
+            },
+            {
+                "word": "ruote",
+                "category": "vehicles",
+                "syllables": 2,
+                "frequency": 1.66e-05
+            },
+            {
+                "word": "scooter",
+                "category": "vehicles",
+                "syllables": 2,
+                "frequency": 4.9e-06
+            },
+            {
+                "word": "sommergibile",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 7.08e-07
+            },
+            {
+                "word": "sottomarino",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 3.02e-06
+            },
+            {
+                "word": "stazione",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 7.41e-05
+            },
+            {
+                "word": "suv",
+                "category": "vehicles",
+                "syllables": 1,
+                "frequency": 5.25e-06
+            },
+            {
+                "word": "taxi",
+                "category": "vehicles",
+                "syllables": 2,
+                "frequency": 2e-05
+            },
+            {
+                "word": "timone",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 4.17e-06
+            },
+            {
+                "word": "tir",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 2.4e-06
+            },
+            {
+                "word": "titanic",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 2.57e-06
+            },
+            {
+                "word": "traghetto",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 5.01e-06
+            },
+            {
+                "word": "tram",
+                "category": "vehicles",
+                "syllables": 7,
+                "frequency": 7.76e-06
+            },
+            {
+                "word": "transatlantico",
+                "category": "vehicles",
+                "syllables": 5,
+                "frequency": 8.32e-07
+            },
+            {
+                "word": "treno",
+                "category": "vehicles",
+                "syllables": 2,
+                "frequency": 5.75e-05
+            },
+            {
+                "word": "veliero",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 6.46e-07
+            },
+            {
+                "word": "velivolo",
+                "category": "vehicles",
+                "syllables": 4,
+                "frequency": 2.29e-06
+            },
+            {
+                "word": "vettura",
+                "category": "vehicles",
+                "syllables": 3,
+                "frequency": 9.77e-06
+            },
+            {
+                "word": "yacht",
+                "category": "vehicles",
+                "syllables": 2,
+                "frequency": 4.9e-06
+            }
+        ]
+    },
+    {
+        "type": "foods",
+        "length": 64,
+        "categories": [
+            "foods"
+        ],
+        "words": [
+            {
+                "word": "aglio",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 7.94e-06
+            },
+            {
+                "word": "alimenti",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 1.41e-05
+            },
+            {
+                "word": "antipasto",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 2.24e-06
+            },
+            {
+                "word": "aragosta",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 7.59e-07
+            },
+            {
+                "word": "bistecca",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 2.34e-06
+            },
+            {
+                "word": "budino",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 1.45e-06
+            },
+            {
+                "word": "calorie",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 6.03e-06
+            },
+            {
+                "word": "caramella",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 2.29e-06
+            },
+            {
+                "word": "carbonara",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 2.69e-06
+            },
+            {
+                "word": "carne",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 6.61e-05
+            },
+            {
+                "word": "cena",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 6.31e-05
+            },
+            {
+                "word": "cereale",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 8.91e-07
+            },
+            {
+                "word": "cibo",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 0.000115
+            },
+            {
+                "word": "cioccolato",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 2.19e-05
+            },
+            {
+                "word": "confetto",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 2.88e-07
+            },
+            {
+                "word": "cotoletta",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 7.76e-07
+            },
+            {
+                "word": "crema",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 1.82e-05
+            },
+            {
+                "word": "crostata",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 1.66e-06
+            },
+            {
+                "word": "cucinare",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 1.7e-05
+            },
+            {
+                "word": "dessert",
+                "category": "foods",
+                "syllables": 6,
+                "frequency": 3.31e-06
+            },
+            {
+                "word": "dieta",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 2.95e-05
+            },
+            {
+                "word": "fame",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 7.08e-05
+            },
+            {
+                "word": "farina",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 1.41e-05
+            },
+            {
+                "word": "formaggio",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 1.86e-05
+            },
+            {
+                "word": "frittella",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 2.88e-07
+            },
+            {
+                "word": "frutta",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 2.51e-05
+            },
+            {
+                "word": "funghi",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 1.23e-05
+            },
+            {
+                "word": "hamburger",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 5.75e-06
+            },
+            {
+                "word": "insalata",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 7.59e-06
+            },
+            {
+                "word": "lasagne",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 2.69e-06
+            },
+            {
+                "word": "legume",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 2.24e-07
+            },
+            {
+                "word": "mandorla",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 1.82e-06
+            },
+            {
+                "word": "marmellata",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 4.47e-06
+            },
+            {
+                "word": "melanzana",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 6.46e-07
+            },
+            {
+                "word": "minestra",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 2.75e-06
+            },
+            {
+                "word": "muffin",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 2.04e-06
+            },
+            {
+                "word": "pappa",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 3.09e-06
+            },
+            {
+                "word": "pasta",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 3.89e-05
+            },
+            {
+                "word": "pasticcio",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 2.19e-06
+            },
+            {
+                "word": "patatine",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 7.76e-06
+            },
+            {
+                "word": "pepe",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 1.12e-05
+            },
+            {
+                "word": "pesce",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 4.07e-05
+            },
+            {
+                "word": "piadina",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 1.07e-06
+            },
+            {
+                "word": "piselli",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 3.16e-06
+            },
+            {
+                "word": "pizza",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 4.17e-05
+            },
+            {
+                "word": "pollo",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 1.7e-05
+            },
+            {
+                "word": "polpetta",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 8.91e-07
+            },
+            {
+                "word": "pranzo",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 5.89e-05
+            },
+            {
+                "word": "prosciutto",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 7.59e-06
+            },
+            {
+                "word": "ravioli",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 2.34e-06
+            },
+            {
+                "word": "ricotta",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 3.8e-06
+            },
+            {
+                "word": "riso",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 3.55e-05
+            },
+            {
+                "word": "salame",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 3.31e-06
+            },
+            {
+                "word": "snack",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 3.72e-06
+            },
+            {
+                "word": "spaghetti",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 7.41e-06
+            },
+            {
+                "word": "spezzatino",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 7.94e-07
+            },
+            {
+                "word": "sugo",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 5.37e-06
+            },
+            {
+                "word": "tacchino",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 2.19e-06
+            },
+            {
+                "word": "tiramis\u00f9",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 1.29e-06
+            },
+            {
+                "word": "torta",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 2.57e-05
+            },
+            {
+                "word": "tortellini",
+                "category": "foods",
+                "syllables": 4,
+                "frequency": 1.38e-06
+            },
+            {
+                "word": "verdura",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 7.08e-06
+            },
+            {
+                "word": "zucca",
+                "category": "foods",
+                "syllables": 2,
+                "frequency": 5.75e-06
+            },
+            {
+                "word": "zucchine",
+                "category": "foods",
+                "syllables": 3,
+                "frequency": 3.47e-06
+            }
+        ]
+    },
+    {
+        "type": "hobbies/sport",
+        "length": 66,
+        "categories": [
+            "hobbies/sport"
+        ],
+        "words": [
+            {
+                "word": "apicoltura",
+                "category": "hobbies/sport",
+                "syllables": 5,
+                "frequency": 6.17e-07
+            },
+            {
+                "word": "arrampicata",
+                "category": "hobbies/sport",
+                "syllables": 5,
+                "frequency": 2.45e-06
+            },
+            {
+                "word": "astronomia",
+                "category": "hobbies/sport",
+                "syllables": 5,
+                "frequency": 3.89e-06
+            },
+            {
+                "word": "atletica",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 6.76e-06
+            },
+            {
+                "word": "ballo",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 2.57e-05
+            },
+            {
+                "word": "barbecue",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 4.17e-06
+            },
+            {
+                "word": "baseball",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 8.13e-06
+            },
+            {
+                "word": "biliardo",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 1.91e-06
+            },
+            {
+                "word": "bowling",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 1.7e-06
+            },
+            {
+                "word": "bricolage",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 4.17e-07
+            },
+            {
+                "word": "caccia",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 6.03e-05
+            },
+            {
+                "word": "calcio",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 0.000135
+            },
+            {
+                "word": "calligrafia",
+                "category": "hobbies/sport",
+                "syllables": 5,
+                "frequency": 2.19e-06
+            },
+            {
+                "word": "camminare",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 2.29e-05
+            },
+            {
+                "word": "campeggio",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 7.76e-06
+            },
+            {
+                "word": "cantare",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 2.19e-05
+            },
+            {
+                "word": "carte",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 5.37e-05
+            },
+            {
+                "word": "chitarra",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 1.91e-05
+            },
+            {
+                "word": "ciclismo",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 7.41e-06
+            },
+            {
+                "word": "cinema",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 7.94e-05
+            },
+            {
+                "word": "collezionismo",
+                "category": "hobbies/sport",
+                "syllables": 5,
+                "frequency": 1.07e-06
+            },
+            {
+                "word": "correre",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 3.55e-05
+            },
+            {
+                "word": "cucinare",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 1.7e-05
+            },
+            {
+                "word": "cucire",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 2.19e-06
+            },
+            {
+                "word": "dipingere",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 7.08e-06
+            },
+            {
+                "word": "disegnare",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 9.77e-06
+            },
+            {
+                "word": "enigmistica",
+                "category": "hobbies/sport",
+                "syllables": 5,
+                "frequency": 6.46e-07
+            },
+            {
+                "word": "equitazione",
+                "category": "hobbies/sport",
+                "syllables": 5,
+                "frequency": 1.35e-06
+            },
+            {
+                "word": "fotografia",
+                "category": "hobbies/sport",
+                "syllables": 5,
+                "frequency": 3.8e-05
+            },
+            {
+                "word": "freccette",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 9.33e-07
+            },
+            {
+                "word": "gare",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 2.24e-05
+            },
+            {
+                "word": "giardinaggio",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 3.02e-06
+            },
+            {
+                "word": "golf",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 1.12e-05
+            },
+            {
+                "word": "graffiti",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 3.72e-06
+            },
+            {
+                "word": "illusionismo",
+                "category": "hobbies/sport",
+                "syllables": 5,
+                "frequency": 1.23e-07
+            },
+            {
+                "word": "immersione",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 3.72e-06
+            },
+            {
+                "word": "intagliare",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 2.88e-07
+            },
+            {
+                "word": "leggere",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 0.000145
+            },
+            {
+                "word": "modellismo",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 7.59e-07
+            },
+            {
+                "word": "musica",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 0.000186
+            },
+            {
+                "word": "nuoto",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 1.07e-05
+            },
+            {
+                "word": "origami",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 9.77e-07
+            },
+            {
+                "word": "palestra",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 2.45e-05
+            },
+            {
+                "word": "paracadutismo",
+                "category": "hobbies/sport",
+                "syllables": 6,
+                "frequency": 4.07e-07
+            },
+            {
+                "word": "parkour",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 3.02e-07
+            },
+            {
+                "word": "pattinaggio",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 1.86e-06
+            },
+            {
+                "word": "pesca",
+                "category": "hobbies/sport",
+                "syllables": 6,
+                "frequency": 2.4e-05
+            },
+            {
+                "word": "pianoforte",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 1.02e-05
+            },
+            {
+                "word": "ping-pong",
+                "category": "hobbies/sport",
+                "syllables": 1,
+                "frequency": 1.43e-06
+            },
+            {
+                "word": "programmare",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 4.17e-06
+            },
+            {
+                "word": "restauro",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 1.17e-05
+            },
+            {
+                "word": "ricamo",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 1.26e-06
+            },
+            {
+                "word": "robotica",
+                "category": "hobbies/sport",
+                "syllables": 4,
+                "frequency": 2.34e-06
+            },
+            {
+                "word": "romanzo",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 4.07e-05
+            },
+            {
+                "word": "rugby",
+                "category": "hobbies/sport",
+                "syllables": 6,
+                "frequency": 8.71e-06
+            },
+            {
+                "word": "scacchi",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 7.24e-06
+            },
+            {
+                "word": "scherma",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 3.72e-06
+            },
+            {
+                "word": "sci",
+                "category": "hobbies/sport",
+                "syllables": 1,
+                "frequency": 1.23e-05
+            },
+            {
+                "word": "scrittura",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 3.39e-05
+            },
+            {
+                "word": "softair",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 2.4e-07
+            },
+            {
+                "word": "sudoku",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 4.27e-07
+            },
+            {
+                "word": "tennis",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 1.45e-05
+            },
+            {
+                "word": "trekking",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 2.14e-06
+            },
+            {
+                "word": "viaggiare",
+                "category": "hobbies/sport",
+                "syllables": 3,
+                "frequency": 2.57e-05
+            },
+            {
+                "word": "volontariato",
+                "category": "hobbies/sport",
+                "syllables": 5,
+                "frequency": 1e-05
+            },
+            {
+                "word": "yoga",
+                "category": "hobbies/sport",
+                "syllables": 2,
+                "frequency": 7.08e-06
+            }
+        ]
+    }
+]

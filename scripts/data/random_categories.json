@@ -1,0 +1,3599 @@
+[
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "vuoto",
+                "syllables": 2,
+                "frequency": 0.0000407
+            },
+            {
+                "word": "costa",
+                "syllables": 2,
+                "frequency": 0.000112
+            },
+            {
+                "word": "vivo",
+                "syllables": 2,
+                "frequency": 0.000107
+            },
+            {
+                "word": "Lucca",
+                "syllables": 2,
+                "frequency": 0.0000182
+            },
+            {
+                "word": "cerchio",
+                "syllables": 2,
+                "frequency": 0.0000162
+            },
+            {
+                "word": "scopo",
+                "syllables": 2,
+                "frequency": 0.000117
+            },
+            {
+                "word": "greca",
+                "syllables": 2,
+                "frequency": 0.00002
+            },
+            {
+                "word": "sporco",
+                "syllables": 2,
+                "frequency": 0.0000117
+            },
+            {
+                "word": "vasto",
+                "syllables": 2,
+                "frequency": 0.0000191
+            },
+            {
+                "word": "peso",
+                "syllables": 2,
+                "frequency": 0.0000832
+            },
+            {
+                "word": "cento",
+                "syllables": 2,
+                "frequency": 0.0000661
+            },
+            {
+                "word": "Pescara",
+                "syllables": 2,
+                "frequency": 0.0000123
+            },
+            {
+                "word": "podio",
+                "syllables": 2,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "forse",
+                "syllables": 2,
+                "frequency": 0.000468
+            },
+            {
+                "word": "stanza",
+                "syllables": 2,
+                "frequency": 0.0000617
+            },
+            {
+                "word": "banco",
+                "syllables": 2,
+                "frequency": 0.0000214
+            },
+            {
+                "word": "posta",
+                "syllables": 2,
+                "frequency": 0.0000661
+            },
+            {
+                "word": "banda",
+                "syllables": 2,
+                "frequency": 0.0000324
+            },
+            {
+                "word": "dopo",
+                "syllables": 2,
+                "frequency": 0.00135
+            },
+            {
+                "word": "destra",
+                "syllables": 2,
+                "frequency": 0.000126
+            },
+            {
+                "word": "monte",
+                "syllables": 2,
+                "frequency": 0.0000631
+            },
+            {
+                "word": "valle",
+                "syllables": 2,
+                "frequency": 0.0000479
+            },
+            {
+                "word": "pessimo",
+                "syllables": 3,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "martello",
+                "syllables": 3,
+                "frequency": 0.00001
+            },
+            {
+                "word": "valore",
+                "syllables": 3,
+                "frequency": 0.000145
+            },
+            {
+                "word": "riparo",
+                "syllables": 3,
+                "frequency": 0.0000102
+            },
+            {
+                "word": "prendere",
+                "syllables": 3,
+                "frequency": 0.000224
+            },
+            {
+                "word": "docente",
+                "syllables": 3,
+                "frequency": 0.0000178
+            },
+            {
+                "word": "creatura",
+                "syllables": 3,
+                "frequency": 0.0000135
+            },
+            {
+                "word": "coprire",
+                "syllables": 3,
+                "frequency": 0.00002
+            },
+            {
+                "word": "mondiali",
+                "syllables": 3,
+                "frequency": 0.000038
+            },
+            {
+                "word": "leggero",
+                "syllables": 3,
+                "frequency": 0.0000214
+            },
+            {
+                "word": "agire",
+                "syllables": 3,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "finestra",
+                "syllables": 3,
+                "frequency": 0.000038
+            },
+            {
+                "word": "colombo",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "razzismo",
+                "syllables": 3,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "ottica",
+                "syllables": 3,
+                "frequency": 0.0000112
+            },
+            {
+                "word": "senato",
+                "syllables": 3,
+                "frequency": 0.0000479
+            },
+            {
+                "word": "versione",
+                "syllables": 3,
+                "frequency": 0.000126
+            },
+            {
+                "word": "dominio",
+                "syllables": 3,
+                "frequency": 0.0000407
+            },
+            {
+                "word": "deriva",
+                "syllables": 3,
+                "frequency": 0.0000309
+            },
+            {
+                "word": "finale",
+                "syllables": 3,
+                "frequency": 0.000115
+            },
+            {
+                "word": "magico",
+                "syllables": 3,
+                "frequency": 0.0000162
+            },
+            {
+                "word": "accento",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "riguardo",
+                "syllables": 3,
+                "frequency": 0.000132
+            },
+            {
+                "word": "rapporto",
+                "syllables": 3,
+                "frequency": 0.000166
+            },
+            {
+                "word": "giuria",
+                "syllables": 3,
+                "frequency": 0.0000145
+            },
+            {
+                "word": "sindaco",
+                "syllables": 3,
+                "frequency": 0.0000724
+            },
+            {
+                "word": "mutande",
+                "syllables": 3,
+                "frequency": 0.0000105
+            },
+            {
+                "word": "usare",
+                "syllables": 3,
+                "frequency": 0.00012
+            },
+            {
+                "word": "rapida",
+                "syllables": 3,
+                "frequency": 0.0000219
+            },
+            {
+                "word": "disposto",
+                "syllables": 3,
+                "frequency": 0.0000275
+            },
+            {
+                "word": "servire",
+                "syllables": 3,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "azzardo",
+                "syllables": 3,
+                "frequency": 0.0000105
+            },
+            {
+                "word": "cultura",
+                "syllables": 3,
+                "frequency": 0.000174
+            },
+            {
+                "word": "trattare",
+                "syllables": 3,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "insegnare",
+                "syllables": 4,
+                "frequency": 0.0000214
+            },
+            {
+                "word": "eccezione",
+                "syllables": 4,
+                "frequency": 0.000038
+            },
+            {
+                "word": "previsione",
+                "syllables": 4,
+                "frequency": 0.0000138
+            },
+            {
+                "word": "intensità",
+                "syllables": 4,
+                "frequency": 0.0000151
+            },
+            {
+                "word": "biologia",
+                "syllables": 4,
+                "frequency": 0.0000102
+            },
+            {
+                "word": "sconosciuto",
+                "syllables": 4,
+                "frequency": 0.000017
+            },
+            {
+                "word": "miglioramento",
+                "syllables": 5,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "emendamento",
+                "syllables": 5,
+                "frequency": 0.00001
+            }
+        ]
+    },
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "verde",
+                "syllables": 2,
+                "frequency": 0.0000708
+            },
+            {
+                "word": "grigio",
+                "syllables": 2,
+                "frequency": 0.0000182
+            },
+            {
+                "word": "pozzo",
+                "syllables": 2,
+                "frequency": 0.000012
+            },
+            {
+                "word": "greca",
+                "syllables": 2,
+                "frequency": 0.00002
+            },
+            {
+                "word": "pari",
+                "syllables": 2,
+                "frequency": 0.00011
+            },
+            {
+                "word": "sport",
+                "syllables": 2,
+                "frequency": 0.0000891
+            },
+            {
+                "word": "tregua",
+                "syllables": 2,
+                "frequency": 0.000011
+            },
+            {
+                "word": "bacio",
+                "syllables": 2,
+                "frequency": 0.0000257
+            },
+            {
+                "word": "dentro",
+                "syllables": 2,
+                "frequency": 0.000166
+            },
+            {
+                "word": "pasqua",
+                "syllables": 2,
+                "frequency": 0.0000145
+            },
+            {
+                "word": "porno",
+                "syllables": 2,
+                "frequency": 0.0000282
+            },
+            {
+                "word": "squadra",
+                "syllables": 2,
+                "frequency": 0.000155
+            },
+            {
+                "word": "luigi",
+                "syllables": 2,
+                "frequency": 0.0000562
+            },
+            {
+                "word": "golfo",
+                "syllables": 2,
+                "frequency": 0.0000174
+            },
+            {
+                "word": "acque",
+                "syllables": 2,
+                "frequency": 0.000049
+            },
+            {
+                "word": "saga",
+                "syllables": 2,
+                "frequency": 0.0000112
+            },
+            {
+                "word": "mela",
+                "syllables": 2,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "prato",
+                "syllables": 2,
+                "frequency": 0.0000224
+            },
+            {
+                "word": "mister",
+                "syllables": 2,
+                "frequency": 0.000011
+            },
+            {
+                "word": "sconto",
+                "syllables": 2,
+                "frequency": 0.0000229
+            },
+            {
+                "word": "porta",
+                "syllables": 2,
+                "frequency": 0.000257
+            },
+            {
+                "word": "patria",
+                "syllables": 2,
+                "frequency": 0.0000363
+            },
+            {
+                "word": "Danimarca",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "animo",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "girone",
+                "syllables": 3,
+                "frequency": 0.0000112
+            },
+            {
+                "word": "muoversi",
+                "syllables": 3,
+                "frequency": 0.000017
+            },
+            {
+                "word": "volume",
+                "syllables": 3,
+                "frequency": 0.0000575
+            },
+            {
+                "word": "Olanda",
+                "syllables": 3,
+                "frequency": 0.0000132
+            },
+            {
+                "word": "cattura",
+                "syllables": 3,
+                "frequency": 0.0000117
+            },
+            {
+                "word": "Genova",
+                "syllables": 3,
+                "frequency": 0.0000646
+            },
+            {
+                "word": "menzione",
+                "syllables": 3,
+                "frequency": 0.0000102
+            },
+            {
+                "word": "cattivo",
+                "syllables": 3,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "carico",
+                "syllables": 3,
+                "frequency": 0.0000603
+            },
+            {
+                "word": "usare",
+                "syllables": 3,
+                "frequency": 0.00012
+            },
+            {
+                "word": "notizia",
+                "syllables": 3,
+                "frequency": 0.000112
+            },
+            {
+                "word": "Irlanda",
+                "syllables": 3,
+                "frequency": 0.0000138
+            },
+            {
+                "word": "impianto",
+                "syllables": 3,
+                "frequency": 0.0000282
+            },
+            {
+                "word": "isola",
+                "syllables": 3,
+                "frequency": 0.0000661
+            },
+            {
+                "word": "ricchezza",
+                "syllables": 3,
+                "frequency": 0.0000282
+            },
+            {
+                "word": "autore",
+                "syllables": 3,
+                "frequency": 0.000107
+            },
+            {
+                "word": "bambino",
+                "syllables": 3,
+                "frequency": 0.000123
+            },
+            {
+                "word": "musica",
+                "syllables": 3,
+                "frequency": 0.000186
+            },
+            {
+                "word": "lanciare",
+                "syllables": 3,
+                "frequency": 0.000017
+            },
+            {
+                "word": "marina",
+                "syllables": 3,
+                "frequency": 0.0000447
+            },
+            {
+                "word": "simile",
+                "syllables": 3,
+                "frequency": 0.000117
+            },
+            {
+                "word": "regola",
+                "syllables": 3,
+                "frequency": 0.0000513
+            },
+            {
+                "word": "gravità",
+                "syllables": 3,
+                "frequency": 0.0000162
+            },
+            {
+                "word": "tentare",
+                "syllables": 3,
+                "frequency": 0.0000182
+            },
+            {
+                "word": "globale",
+                "syllables": 3,
+                "frequency": 0.0000302
+            },
+            {
+                "word": "canone",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "giustizia",
+                "syllables": 3,
+                "frequency": 0.0000977
+            },
+            {
+                "word": "estratto",
+                "syllables": 3,
+                "frequency": 0.0000224
+            },
+            {
+                "word": "sparire",
+                "syllables": 3,
+                "frequency": 0.000012
+            },
+            {
+                "word": "Modena",
+                "syllables": 3,
+                "frequency": 0.0000295
+            },
+            {
+                "word": "raggiungere",
+                "syllables": 4,
+                "frequency": 0.0000794
+            },
+            {
+                "word": "dimensione",
+                "syllables": 4,
+                "frequency": 0.0000288
+            },
+            {
+                "word": "competente",
+                "syllables": 4,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "produttore",
+                "syllables": 4,
+                "frequency": 0.000024
+            },
+            {
+                "word": "sacerdote",
+                "syllables": 4,
+                "frequency": 0.0000138
+            },
+            {
+                "word": "aziendale",
+                "syllables": 4,
+                "frequency": 0.0000158
+            },
+            {
+                "word": "tipologia",
+                "syllables": 5,
+                "frequency": 0.0000123
+            },
+            {
+                "word": "differente",
+                "syllables": 5,
+                "frequency": 0.00002
+            },
+            {
+                "word": "operativo",
+                "syllables": 5,
+                "frequency": 0.0000186
+            },
+            {
+                "word": "particolare",
+                "syllables": 5,
+                "frequency": 0.00024
+            }
+        ]
+    },
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "porre",
+                "syllables": 2,
+                "frequency": 0.0000288
+            },
+            {
+                "word": "bordo",
+                "syllables": 2,
+                "frequency": 0.0000468
+            },
+            {
+                "word": "nuoto",
+                "syllables": 2,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "bravo",
+                "syllables": 2,
+                "frequency": 0.0000646
+            },
+            {
+                "word": "arco",
+                "syllables": 2,
+                "frequency": 0.0000214
+            },
+            {
+                "word": "fame",
+                "syllables": 2,
+                "frequency": 0.0000708
+            },
+            {
+                "word": "sosta",
+                "syllables": 2,
+                "frequency": 0.0000123
+            },
+            {
+                "word": "giro",
+                "syllables": 2,
+                "frequency": 0.000209
+            },
+            {
+                "word": "frega",
+                "syllables": 2,
+                "frequency": 0.0000372
+            },
+            {
+                "word": "pronto",
+                "syllables": 2,
+                "frequency": 0.0000776
+            },
+            {
+                "word": "preda",
+                "syllables": 2,
+                "frequency": 0.0000132
+            },
+            {
+                "word": "quarto",
+                "syllables": 2,
+                "frequency": 0.0000537
+            },
+            {
+                "word": "grillo",
+                "syllables": 2,
+                "frequency": 0.0000282
+            },
+            {
+                "word": "mese",
+                "syllables": 2,
+                "frequency": 0.000209
+            },
+            {
+                "word": "destro",
+                "syllables": 2,
+                "frequency": 0.000024
+            },
+            {
+                "word": "gruppo",
+                "syllables": 2,
+                "frequency": 0.000372
+            },
+            {
+                "word": "neve",
+                "syllables": 2,
+                "frequency": 0.0000288
+            },
+            {
+                "word": "niente",
+                "syllables": 2,
+                "frequency": 0.000437
+            },
+            {
+                "word": "frequenza",
+                "syllables": 3,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "rapina",
+                "syllables": 3,
+                "frequency": 0.0000105
+            },
+            {
+                "word": "Vaticano",
+                "syllables": 3,
+                "frequency": 0.0000229
+            },
+            {
+                "word": "visione",
+                "syllables": 3,
+                "frequency": 0.0000661
+            },
+            {
+                "word": "verità",
+                "syllables": 3,
+                "frequency": 0.000145
+            },
+            {
+                "word": "trattare",
+                "syllables": 3,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "togliere",
+                "syllables": 3,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "orgoglio",
+                "syllables": 3,
+                "frequency": 0.0000229
+            },
+            {
+                "word": "uguale",
+                "syllables": 3,
+                "frequency": 0.0000407
+            },
+            {
+                "word": "costoso",
+                "syllables": 3,
+                "frequency": 0.0000105
+            },
+            {
+                "word": "solare",
+                "syllables": 3,
+                "frequency": 0.0000263
+            },
+            {
+                "word": "tacere",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "rendersi",
+                "syllables": 3,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "servire",
+                "syllables": 3,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "cantina",
+                "syllables": 3,
+                "frequency": 0.00001
+            },
+            {
+                "word": "composta",
+                "syllables": 3,
+                "frequency": 0.0000288
+            },
+            {
+                "word": "versione",
+                "syllables": 3,
+                "frequency": 0.000126
+            },
+            {
+                "word": "celebre",
+                "syllables": 3,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "amico",
+                "syllables": 3,
+                "frequency": 0.00017
+            },
+            {
+                "word": "morire",
+                "syllables": 3,
+                "frequency": 0.0000955
+            },
+            {
+                "word": "riserva",
+                "syllables": 3,
+                "frequency": 0.0000347
+            },
+            {
+                "word": "escluso",
+                "syllables": 3,
+                "frequency": 0.0000148
+            },
+            {
+                "word": "estremo",
+                "syllables": 3,
+                "frequency": 0.0000151
+            },
+            {
+                "word": "rifiuto",
+                "syllables": 3,
+                "frequency": 0.0000263
+            },
+            {
+                "word": "esperto",
+                "syllables": 3,
+                "frequency": 0.0000324
+            },
+            {
+                "word": "portato",
+                "syllables": 3,
+                "frequency": 0.000126
+            },
+            {
+                "word": "felice",
+                "syllables": 3,
+                "frequency": 0.000135
+            },
+            {
+                "word": "concilio",
+                "syllables": 3,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "consorzio",
+                "syllables": 3,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "profitto",
+                "syllables": 3,
+                "frequency": 0.0000174
+            },
+            {
+                "word": "conserva",
+                "syllables": 3,
+                "frequency": 0.0000129
+            },
+            {
+                "word": "pregare",
+                "syllables": 3,
+                "frequency": 0.000011
+            },
+            {
+                "word": "trentino",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "vertice",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "attore",
+                "syllables": 3,
+                "frequency": 0.0000302
+            },
+            {
+                "word": "giudiziario",
+                "syllables": 4,
+                "frequency": 0.0000132
+            },
+            {
+                "word": "proseguire",
+                "syllables": 4,
+                "frequency": 0.0000155
+            },
+            {
+                "word": "pianoforte",
+                "syllables": 4,
+                "frequency": 0.0000102
+            },
+            {
+                "word": "possibile",
+                "syllables": 4,
+                "frequency": 0.000331
+            },
+            {
+                "word": "radicale",
+                "syllables": 4,
+                "frequency": 0.0000195
+            },
+            {
+                "word": "distinzione",
+                "syllables": 4,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "ora",
+                "syllables": 4,
+                "frequency": 0.00105
+            },
+            {
+                "word": "tribunale",
+                "syllables": 4,
+                "frequency": 0.0000724
+            },
+            {
+                "word": "programmazione",
+                "syllables": 5,
+                "frequency": 0.0000275
+            },
+            {
+                "word": "esercitare",
+                "syllables": 5,
+                "frequency": 0.0000145
+            },
+            {
+                "word": "popolarità",
+                "syllables": 5,
+                "frequency": 0.000012
+            }
+        ]
+    },
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "truffa",
+                "syllables": 2,
+                "frequency": 0.0000135
+            },
+            {
+                "word": "arte",
+                "syllables": 2,
+                "frequency": 0.000151
+            },
+            {
+                "word": "tuo",
+                "syllables": 2,
+                "frequency": 0.000537
+            },
+            {
+                "word": "somma",
+                "syllables": 2,
+                "frequency": 0.0000288
+            },
+            {
+                "word": "ritmo",
+                "syllables": 2,
+                "frequency": 0.0000214
+            },
+            {
+                "word": "chiaro",
+                "syllables": 2,
+                "frequency": 0.000123
+            },
+            {
+                "word": "cielo",
+                "syllables": 2,
+                "frequency": 0.0001
+            },
+            {
+                "word": "triste",
+                "syllables": 2,
+                "frequency": 0.0000575
+            },
+            {
+                "word": "parte",
+                "syllables": 2,
+                "frequency": 0.00151
+            },
+            {
+                "word": "brutto",
+                "syllables": 2,
+                "frequency": 0.0000501
+            },
+            {
+                "word": "Pisa",
+                "syllables": 2,
+                "frequency": 0.0000324
+            },
+            {
+                "word": "rotta",
+                "syllables": 2,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "manco",
+                "syllables": 2,
+                "frequency": 0.0000355
+            },
+            {
+                "word": "terme",
+                "syllables": 2,
+                "frequency": 0.000012
+            },
+            {
+                "word": "festa",
+                "syllables": 2,
+                "frequency": 0.00012
+            },
+            {
+                "word": "giunto",
+                "syllables": 2,
+                "frequency": 0.0000204
+            },
+            {
+                "word": "febbre",
+                "syllables": 2,
+                "frequency": 0.0000195
+            },
+            {
+                "word": "feci",
+                "syllables": 2,
+                "frequency": 0.0000117
+            },
+            {
+                "word": "braccio",
+                "syllables": 2,
+                "frequency": 0.0000447
+            },
+            {
+                "word": "acido",
+                "syllables": 3,
+                "frequency": 0.0000204
+            },
+            {
+                "word": "corretto",
+                "syllables": 3,
+                "frequency": 0.0000302
+            },
+            {
+                "word": "chiamato",
+                "syllables": 3,
+                "frequency": 0.000102
+            },
+            {
+                "word": "intorno",
+                "syllables": 3,
+                "frequency": 0.000112
+            },
+            {
+                "word": "amore",
+                "syllables": 3,
+                "frequency": 0.000219
+            },
+            {
+                "word": "mettersi",
+                "syllables": 3,
+                "frequency": 0.0000257
+            },
+            {
+                "word": "scoperto",
+                "syllables": 3,
+                "frequency": 0.0001
+            },
+            {
+                "word": "tranquillo",
+                "syllables": 3,
+                "frequency": 0.0000417
+            },
+            {
+                "word": "Novara",
+                "syllables": 3,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "tesoro",
+                "syllables": 3,
+                "frequency": 0.0000501
+            },
+            {
+                "word": "profumo",
+                "syllables": 3,
+                "frequency": 0.0000191
+            },
+            {
+                "word": "sequestro",
+                "syllables": 3,
+                "frequency": 0.0000135
+            },
+            {
+                "word": "sostegno",
+                "syllables": 3,
+                "frequency": 0.000055
+            },
+            {
+                "word": "formaggio",
+                "syllables": 3,
+                "frequency": 0.0000186
+            },
+            {
+                "word": "puntata",
+                "syllables": 3,
+                "frequency": 0.0000427
+            },
+            {
+                "word": "stasera",
+                "syllables": 3,
+                "frequency": 0.0000794
+            },
+            {
+                "word": "frequente",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "servizio",
+                "syllables": 3,
+                "frequency": 0.000224
+            },
+            {
+                "word": "venuta",
+                "syllables": 3,
+                "frequency": 0.0000324
+            },
+            {
+                "word": "tramite",
+                "syllables": 3,
+                "frequency": 0.000138
+            },
+            {
+                "word": "insieme",
+                "syllables": 3,
+                "frequency": 0.000417
+            },
+            {
+                "word": "maestà",
+                "syllables": 3,
+                "frequency": 0.000011
+            },
+            {
+                "word": "pesante",
+                "syllables": 3,
+                "frequency": 0.0000324
+            },
+            {
+                "word": "destino",
+                "syllables": 3,
+                "frequency": 0.0000407
+            },
+            {
+                "word": "augusto",
+                "syllables": 3,
+                "frequency": 0.0000129
+            },
+            {
+                "word": "unità",
+                "syllables": 3,
+                "frequency": 0.0000794
+            },
+            {
+                "word": "cadere",
+                "syllables": 3,
+                "frequency": 0.0000372
+            },
+            {
+                "word": "portare",
+                "syllables": 3,
+                "frequency": 0.000123
+            },
+            {
+                "word": "piacere",
+                "syllables": 3,
+                "frequency": 0.000123
+            },
+            {
+                "word": "depressione",
+                "syllables": 4,
+                "frequency": 0.00002
+            },
+            {
+                "word": "previsione",
+                "syllables": 4,
+                "frequency": 0.0000138
+            },
+            {
+                "word": "titolare",
+                "syllables": 4,
+                "frequency": 0.0000347
+            },
+            {
+                "word": "infantile",
+                "syllables": 4,
+                "frequency": 0.0000117
+            },
+            {
+                "word": "preparato",
+                "syllables": 4,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "magazzino",
+                "syllables": 4,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "novecento",
+                "syllables": 4,
+                "frequency": 0.0000105
+            },
+            {
+                "word": "proposito",
+                "syllables": 4,
+                "frequency": 0.0000832
+            },
+            {
+                "word": "ristorante",
+                "syllables": 4,
+                "frequency": 0.0000457
+            },
+            {
+                "word": "preparare",
+                "syllables": 4,
+                "frequency": 0.0000269
+            },
+            {
+                "word": "eredità",
+                "syllables": 4,
+                "frequency": 0.0000186
+            },
+            {
+                "word": "permanente",
+                "syllables": 4,
+                "frequency": 0.0000224
+            },
+            {
+                "word": "cominciare",
+                "syllables": 4,
+                "frequency": 0.0000355
+            },
+            {
+                "word": "positiva",
+                "syllables": 4,
+                "frequency": 0.0000282
+            },
+            {
+                "word": "differenza",
+                "syllables": 4,
+                "frequency": 0.000112
+            },
+            {
+                "word": "femminile",
+                "syllables": 4,
+                "frequency": 0.0000661
+            }
+        ]
+    },
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "lago",
+                "syllables": 2,
+                "frequency": 0.0000437
+            },
+            {
+                "word": "salve",
+                "syllables": 2,
+                "frequency": 0.0000182
+            },
+            {
+                "word": "presso",
+                "syllables": 2,
+                "frequency": 0.000234
+            },
+            {
+                "word": "campo",
+                "syllables": 2,
+                "frequency": 0.000224
+            },
+            {
+                "word": "nastro",
+                "syllables": 2,
+                "frequency": 0.0000145
+            },
+            {
+                "word": "Marte",
+                "syllables": 2,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "pronto",
+                "syllables": 2,
+                "frequency": 0.0000776
+            },
+            {
+                "word": "sacco",
+                "syllables": 2,
+                "frequency": 0.0000933
+            },
+            {
+                "word": "era",
+                "syllables": 2,
+                "frequency": 0.00178
+            },
+            {
+                "word": "grido",
+                "syllables": 2,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "retta",
+                "syllables": 2,
+                "frequency": 0.0000186
+            },
+            {
+                "word": "volante",
+                "syllables": 3,
+                "frequency": 0.0000148
+            },
+            {
+                "word": "tornare",
+                "syllables": 3,
+                "frequency": 0.00012
+            },
+            {
+                "word": "esterno",
+                "syllables": 3,
+                "frequency": 0.0000355
+            },
+            {
+                "word": "caduta",
+                "syllables": 3,
+                "frequency": 0.0000468
+            },
+            {
+                "word": "gelato",
+                "syllables": 3,
+                "frequency": 0.0000166
+            },
+            {
+                "word": "paziente",
+                "syllables": 3,
+                "frequency": 0.0000372
+            },
+            {
+                "word": "novità",
+                "syllables": 3,
+                "frequency": 0.0000468
+            },
+            {
+                "word": "saltare",
+                "syllables": 3,
+                "frequency": 0.0000214
+            },
+            {
+                "word": "concorso",
+                "syllables": 3,
+                "frequency": 0.0000724
+            },
+            {
+                "word": "maschera",
+                "syllables": 3,
+                "frequency": 0.0000219
+            },
+            {
+                "word": "bloccare",
+                "syllables": 3,
+                "frequency": 0.0000178
+            },
+            {
+                "word": "udienza",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "escluso",
+                "syllables": 3,
+                "frequency": 0.0000148
+            },
+            {
+                "word": "maestà",
+                "syllables": 3,
+                "frequency": 0.000011
+            },
+            {
+                "word": "scandalo",
+                "syllables": 3,
+                "frequency": 0.0000219
+            },
+            {
+                "word": "tranquillo",
+                "syllables": 3,
+                "frequency": 0.0000417
+            },
+            {
+                "word": "creato",
+                "syllables": 3,
+                "frequency": 0.0000759
+            },
+            {
+                "word": "preghiera",
+                "syllables": 3,
+                "frequency": 0.0000234
+            },
+            {
+                "word": "controllo",
+                "syllables": 3,
+                "frequency": 0.000174
+            },
+            {
+                "word": "convinto",
+                "syllables": 3,
+                "frequency": 0.0000389
+            },
+            {
+                "word": "dipinto",
+                "syllables": 3,
+                "frequency": 0.0000182
+            },
+            {
+                "word": "fisica",
+                "syllables": 3,
+                "frequency": 0.0000708
+            },
+            {
+                "word": "tagliare",
+                "syllables": 3,
+                "frequency": 0.0000214
+            },
+            {
+                "word": "unità",
+                "syllables": 3,
+                "frequency": 0.0000794
+            },
+            {
+                "word": "numero",
+                "syllables": 3,
+                "frequency": 0.00038
+            },
+            {
+                "word": "volontà",
+                "syllables": 3,
+                "frequency": 0.0000631
+            },
+            {
+                "word": "materia",
+                "syllables": 3,
+                "frequency": 0.0000741
+            },
+            {
+                "word": "giuria",
+                "syllables": 3,
+                "frequency": 0.0000145
+            },
+            {
+                "word": "fascino",
+                "syllables": 3,
+                "frequency": 0.0000145
+            },
+            {
+                "word": "successo",
+                "syllables": 3,
+                "frequency": 0.000275
+            },
+            {
+                "word": "chiedere",
+                "syllables": 3,
+                "frequency": 0.00011
+            },
+            {
+                "word": "vitale",
+                "syllables": 3,
+                "frequency": 0.0000158
+            },
+            {
+                "word": "eccessivo",
+                "syllables": 4,
+                "frequency": 0.0000112
+            },
+            {
+                "word": "candidato",
+                "syllables": 4,
+                "frequency": 0.000038
+            },
+            {
+                "word": "calciatore",
+                "syllables": 4,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "deposito",
+                "syllables": 4,
+                "frequency": 0.0000219
+            },
+            {
+                "word": "costruzione",
+                "syllables": 4,
+                "frequency": 0.0000912
+            },
+            {
+                "word": "indagare",
+                "syllables": 4,
+                "frequency": 0.0000135
+            },
+            {
+                "word": "argentina",
+                "syllables": 4,
+                "frequency": 0.0000269
+            },
+            {
+                "word": "impedire",
+                "syllables": 4,
+                "frequency": 0.0000282
+            },
+            {
+                "word": "edilizia",
+                "syllables": 4,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "annuale",
+                "syllables": 4,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "esilio",
+                "syllables": 4,
+                "frequency": 0.0000102
+            },
+            {
+                "word": "investire",
+                "syllables": 4,
+                "frequency": 0.0000178
+            },
+            {
+                "word": "occidente",
+                "syllables": 4,
+                "frequency": 0.0000195
+            },
+            {
+                "word": "esperienza",
+                "syllables": 4,
+                "frequency": 0.000155
+            },
+            {
+                "word": "segretario",
+                "syllables": 4,
+                "frequency": 0.0000513
+            },
+            {
+                "word": "proposito",
+                "syllables": 4,
+                "frequency": 0.0000832
+            },
+            {
+                "word": "suicidio",
+                "syllables": 4,
+                "frequency": 0.0000257
+            },
+            {
+                "word": "dipendente",
+                "syllables": 4,
+                "frequency": 0.0000229
+            },
+            {
+                "word": "divertimento",
+                "syllables": 5,
+                "frequency": 0.0000195
+            },
+            {
+                "word": "abbonamento",
+                "syllables": 5,
+                "frequency": 0.0000112
+            },
+            {
+                "word": "carabinieri",
+                "syllables": 5,
+                "frequency": 0.0000316
+            }
+        ]
+    },
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "bontà",
+                "syllables": 2,
+                "frequency": 0.0000105
+            },
+            {
+                "word": "ala",
+                "syllables": 2,
+                "frequency": 0.0000117
+            },
+            {
+                "word": "veste",
+                "syllables": 2,
+                "frequency": 0.0000191
+            },
+            {
+                "word": "fuga",
+                "syllables": 2,
+                "frequency": 0.0000437
+            },
+            {
+                "word": "mese",
+                "syllables": 2,
+                "frequency": 0.000209
+            },
+            {
+                "word": "sforzo",
+                "syllables": 2,
+                "frequency": 0.0000288
+            },
+            {
+                "word": "pino",
+                "syllables": 2,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "figlio",
+                "syllables": 2,
+                "frequency": 0.000224
+            },
+            {
+                "word": "truffa",
+                "syllables": 2,
+                "frequency": 0.0000135
+            },
+            {
+                "word": "motto",
+                "syllables": 2,
+                "frequency": 0.0000105
+            },
+            {
+                "word": "mago",
+                "syllables": 2,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "ponte",
+                "syllables": 2,
+                "frequency": 0.0000603
+            },
+            {
+                "word": "forma",
+                "syllables": 2,
+                "frequency": 0.000229
+            },
+            {
+                "word": "vero",
+                "syllables": 2,
+                "frequency": 0.000447
+            },
+            {
+                "word": "presto",
+                "syllables": 2,
+                "frequency": 0.000145
+            },
+            {
+                "word": "forno",
+                "syllables": 2,
+                "frequency": 0.0000182
+            },
+            {
+                "word": "Monti",
+                "syllables": 2,
+                "frequency": 0.0000372
+            },
+            {
+                "word": "nato",
+                "syllables": 2,
+                "frequency": 0.0001
+            },
+            {
+                "word": "sorta",
+                "syllables": 2,
+                "frequency": 0.0000537
+            },
+            {
+                "word": "crudele",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "mattino",
+                "syllables": 3,
+                "frequency": 0.0000389
+            },
+            {
+                "word": "cedere",
+                "syllables": 3,
+                "frequency": 0.000012
+            },
+            {
+                "word": "adesso",
+                "syllables": 3,
+                "frequency": 0.000324
+            },
+            {
+                "word": "divino",
+                "syllables": 3,
+                "frequency": 0.0000105
+            },
+            {
+                "word": "regola",
+                "syllables": 3,
+                "frequency": 0.0000513
+            },
+            {
+                "word": "lanciare",
+                "syllables": 3,
+                "frequency": 0.000017
+            },
+            {
+                "word": "estratto",
+                "syllables": 3,
+                "frequency": 0.0000224
+            },
+            {
+                "word": "finanza",
+                "syllables": 3,
+                "frequency": 0.0000269
+            },
+            {
+                "word": "rilascio",
+                "syllables": 3,
+                "frequency": 0.0000174
+            },
+            {
+                "word": "pensare",
+                "syllables": 3,
+                "frequency": 0.000186
+            },
+            {
+                "word": "speranza",
+                "syllables": 3,
+                "frequency": 0.0000832
+            },
+            {
+                "word": "assunto",
+                "syllables": 3,
+                "frequency": 0.0000339
+            },
+            {
+                "word": "opposto",
+                "syllables": 3,
+                "frequency": 0.0000234
+            },
+            {
+                "word": "costante",
+                "syllables": 3,
+                "frequency": 0.0000468
+            },
+            {
+                "word": "campana",
+                "syllables": 3,
+                "frequency": 0.0000102
+            },
+            {
+                "word": "deluso",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "sparire",
+                "syllables": 3,
+                "frequency": 0.000012
+            },
+            {
+                "word": "legale",
+                "syllables": 3,
+                "frequency": 0.0000692
+            },
+            {
+                "word": "udienza",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "faccenda",
+                "syllables": 3,
+                "frequency": 0.0000148
+            },
+            {
+                "word": "famoso",
+                "syllables": 3,
+                "frequency": 0.0000513
+            },
+            {
+                "word": "estero",
+                "syllables": 3,
+                "frequency": 0.0000158
+            },
+            {
+                "word": "onesto",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "perdita",
+                "syllables": 3,
+                "frequency": 0.0000589
+            },
+            {
+                "word": "Vienna",
+                "syllables": 3,
+                "frequency": 0.0000191
+            },
+            {
+                "word": "terrestre",
+                "syllables": 3,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "invidia",
+                "syllables": 3,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "fisico",
+                "syllables": 3,
+                "frequency": 0.0000437
+            },
+            {
+                "word": "palestra",
+                "syllables": 3,
+                "frequency": 0.0000245
+            },
+            {
+                "word": "intenso",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "unire",
+                "syllables": 3,
+                "frequency": 0.0000112
+            },
+            {
+                "word": "pallone",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "assunta",
+                "syllables": 3,
+                "frequency": 0.00001
+            },
+            {
+                "word": "ferito",
+                "syllables": 3,
+                "frequency": 0.000024
+            },
+            {
+                "word": "formato",
+                "syllables": 3,
+                "frequency": 0.0000525
+            },
+            {
+                "word": "ritratto",
+                "syllables": 3,
+                "frequency": 0.0000245
+            },
+            {
+                "word": "vangelo",
+                "syllables": 3,
+                "frequency": 0.0000138
+            },
+            {
+                "word": "arabo",
+                "syllables": 3,
+                "frequency": 0.0000162
+            },
+            {
+                "word": "lasciare",
+                "syllables": 3,
+                "frequency": 0.0000933
+            },
+            {
+                "word": "operare",
+                "syllables": 4,
+                "frequency": 0.0000178
+            },
+            {
+                "word": "traduzione",
+                "syllables": 4,
+                "frequency": 0.0000631
+            },
+            {
+                "word": "tradimento",
+                "syllables": 4,
+                "frequency": 0.0000162
+            },
+            {
+                "word": "anteriore",
+                "syllables": 4,
+                "frequency": 0.0000182
+            },
+            {
+                "word": "alimentari",
+                "syllables": 5,
+                "frequency": 0.0000191
+            }
+        ]
+    },
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "tela",
+                "syllables": 2,
+                "frequency": 0.0000155
+            },
+            {
+                "word": "frase",
+                "syllables": 2,
+                "frequency": 0.0000537
+            },
+            {
+                "word": "pausa",
+                "syllables": 2,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "uso",
+                "syllables": 2,
+                "frequency": 0.000209
+            },
+            {
+                "word": "Bari",
+                "syllables": 2,
+                "frequency": 0.0000372
+            },
+            {
+                "word": "massa",
+                "syllables": 2,
+                "frequency": 0.0000813
+            },
+            {
+                "word": "gomma",
+                "syllables": 2,
+                "frequency": 0.0000158
+            },
+            {
+                "word": "riso",
+                "syllables": 2,
+                "frequency": 0.0000355
+            },
+            {
+                "word": "podio",
+                "syllables": 2,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "guardia",
+                "syllables": 2,
+                "frequency": 0.0000562
+            },
+            {
+                "word": "enorme",
+                "syllables": 3,
+                "frequency": 0.0000575
+            },
+            {
+                "word": "partito",
+                "syllables": 3,
+                "frequency": 0.000204
+            },
+            {
+                "word": "disastro",
+                "syllables": 3,
+                "frequency": 0.0000275
+            },
+            {
+                "word": "canzone",
+                "syllables": 3,
+                "frequency": 0.0000977
+            },
+            {
+                "word": "contratto",
+                "syllables": 3,
+                "frequency": 0.000112
+            },
+            {
+                "word": "pittore",
+                "syllables": 3,
+                "frequency": 0.0000178
+            },
+            {
+                "word": "immenso",
+                "syllables": 3,
+                "frequency": 0.00001
+            },
+            {
+                "word": "mondiali",
+                "syllables": 3,
+                "frequency": 0.000038
+            },
+            {
+                "word": "isola",
+                "syllables": 3,
+                "frequency": 0.0000661
+            },
+            {
+                "word": "pagato",
+                "syllables": 3,
+                "frequency": 0.0000398
+            },
+            {
+                "word": "tessuto",
+                "syllables": 3,
+                "frequency": 0.0000234
+            },
+            {
+                "word": "accento",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "manuale",
+                "syllables": 3,
+                "frequency": 0.0000234
+            },
+            {
+                "word": "denuncia",
+                "syllables": 3,
+                "frequency": 0.0000355
+            },
+            {
+                "word": "canone",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "puntata",
+                "syllables": 3,
+                "frequency": 0.0000427
+            },
+            {
+                "word": "sperare",
+                "syllables": 3,
+                "frequency": 0.0000224
+            },
+            {
+                "word": "rendere",
+                "syllables": 3,
+                "frequency": 0.0000759
+            },
+            {
+                "word": "mentale",
+                "syllables": 3,
+                "frequency": 0.0000269
+            },
+            {
+                "word": "missione",
+                "syllables": 3,
+                "frequency": 0.0000661
+            },
+            {
+                "word": "dotato",
+                "syllables": 3,
+                "frequency": 0.0000214
+            },
+            {
+                "word": "alice",
+                "syllables": 3,
+                "frequency": 0.0000195
+            },
+            {
+                "word": "palazzo",
+                "syllables": 3,
+                "frequency": 0.0000871
+            },
+            {
+                "word": "credere",
+                "syllables": 3,
+                "frequency": 0.0000871
+            },
+            {
+                "word": "organo",
+                "syllables": 3,
+                "frequency": 0.0000219
+            },
+            {
+                "word": "leggero",
+                "syllables": 3,
+                "frequency": 0.0000214
+            },
+            {
+                "word": "Livorno",
+                "syllables": 3,
+                "frequency": 0.000017
+            },
+            {
+                "word": "arrivo",
+                "syllables": 3,
+                "frequency": 0.0000871
+            },
+            {
+                "word": "avvio",
+                "syllables": 3,
+                "frequency": 0.000012
+            },
+            {
+                "word": "togliere",
+                "syllables": 3,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "mostrare",
+                "syllables": 3,
+                "frequency": 0.0000295
+            },
+            {
+                "word": "chiamare",
+                "syllables": 3,
+                "frequency": 0.0000468
+            },
+            {
+                "word": "libertà",
+                "syllables": 3,
+                "frequency": 0.000145
+            },
+            {
+                "word": "protetto",
+                "syllables": 3,
+                "frequency": 0.0000138
+            },
+            {
+                "word": "sequenza",
+                "syllables": 3,
+                "frequency": 0.0000123
+            },
+            {
+                "word": "veloce",
+                "syllables": 3,
+                "frequency": 0.0000603
+            },
+            {
+                "word": "sorveglianza",
+                "syllables": 4,
+                "frequency": 0.00002
+            },
+            {
+                "word": "esclusiva",
+                "syllables": 4,
+                "frequency": 0.0000209
+            },
+            {
+                "word": "prigioniero",
+                "syllables": 4,
+                "frequency": 0.0000145
+            },
+            {
+                "word": "monopolio",
+                "syllables": 4,
+                "frequency": 0.00001
+            },
+            {
+                "word": "ricorrere",
+                "syllables": 4,
+                "frequency": 0.0000145
+            },
+            {
+                "word": "miracolo",
+                "syllables": 4,
+                "frequency": 0.0000204
+            },
+            {
+                "word": "incremento",
+                "syllables": 4,
+                "frequency": 0.000017
+            },
+            {
+                "word": "siciliano",
+                "syllables": 4,
+                "frequency": 0.000012
+            },
+            {
+                "word": "dibattito",
+                "syllables": 4,
+                "frequency": 0.0000347
+            },
+            {
+                "word": "venditore",
+                "syllables": 4,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "letterario",
+                "syllables": 4,
+                "frequency": 0.0000162
+            },
+            {
+                "word": "movimento",
+                "syllables": 4,
+                "frequency": 0.000132
+            },
+            {
+                "word": "dominante",
+                "syllables": 4,
+                "frequency": 0.0000135
+            },
+            {
+                "word": "vicinanza",
+                "syllables": 4,
+                "frequency": 0.0000112
+            },
+            {
+                "word": "federazione",
+                "syllables": 5,
+                "frequency": 0.0000224
+            },
+            {
+                "word": "ambasciatore",
+                "syllables": 5,
+                "frequency": 0.0000162
+            },
+            {
+                "word": "appartenente",
+                "syllables": 5,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "solidarietà",
+                "syllables": 5,
+                "frequency": 0.0000331
+            }
+        ]
+    },
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "punto",
+                "syllables": 2,
+                "frequency": 0.000417
+            },
+            {
+                "word": "mostro",
+                "syllables": 2,
+                "frequency": 0.00002
+            },
+            {
+                "word": "degno",
+                "syllables": 2,
+                "frequency": 0.0000135
+            },
+            {
+                "word": "fare",
+                "syllables": 2,
+                "frequency": 0.00141
+            },
+            {
+                "word": "chiaro",
+                "syllables": 2,
+                "frequency": 0.000123
+            },
+            {
+                "word": "patto",
+                "syllables": 2,
+                "frequency": 0.0000302
+            },
+            {
+                "word": "morto",
+                "syllables": 2,
+                "frequency": 0.00011
+            },
+            {
+                "word": "cotta",
+                "syllables": 2,
+                "frequency": 0.0000102
+            },
+            {
+                "word": "lavoro",
+                "syllables": 3,
+                "frequency": 0.000813
+            },
+            {
+                "word": "distretto",
+                "syllables": 3,
+                "frequency": 0.0000417
+            },
+            {
+                "word": "diretta",
+                "syllables": 3,
+                "frequency": 0.000107
+            },
+            {
+                "word": "sonora",
+                "syllables": 3,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "rendersi",
+                "syllables": 3,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "andare",
+                "syllables": 3,
+                "frequency": 0.000417
+            },
+            {
+                "word": "sconfitta",
+                "syllables": 3,
+                "frequency": 0.0000257
+            },
+            {
+                "word": "addetto",
+                "syllables": 3,
+                "frequency": 0.0000129
+            },
+            {
+                "word": "pubblico",
+                "syllables": 3,
+                "frequency": 0.000251
+            },
+            {
+                "word": "colombo",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "esatto",
+                "syllables": 3,
+                "frequency": 0.0000427
+            },
+            {
+                "word": "terrestre",
+                "syllables": 3,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "debito",
+                "syllables": 3,
+                "frequency": 0.000055
+            },
+            {
+                "word": "composta",
+                "syllables": 3,
+                "frequency": 0.0000288
+            },
+            {
+                "word": "slogan",
+                "syllables": 3,
+                "frequency": 0.0000132
+            },
+            {
+                "word": "pulizia",
+                "syllables": 3,
+                "frequency": 0.0000195
+            },
+            {
+                "word": "formare",
+                "syllables": 3,
+                "frequency": 0.0000269
+            },
+            {
+                "word": "debole",
+                "syllables": 3,
+                "frequency": 0.0000309
+            },
+            {
+                "word": "rispetto",
+                "syllables": 3,
+                "frequency": 0.000331
+            },
+            {
+                "word": "togliere",
+                "syllables": 3,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "soggetto",
+                "syllables": 3,
+                "frequency": 0.0000513
+            },
+            {
+                "word": "fissare",
+                "syllables": 3,
+                "frequency": 0.0000112
+            },
+            {
+                "word": "gestione",
+                "syllables": 3,
+                "frequency": 0.0000776
+            },
+            {
+                "word": "abbraccio",
+                "syllables": 3,
+                "frequency": 0.0000135
+            },
+            {
+                "word": "vestito",
+                "syllables": 3,
+                "frequency": 0.0000331
+            },
+            {
+                "word": "soccorso",
+                "syllables": 3,
+                "frequency": 0.000038
+            },
+            {
+                "word": "sereno",
+                "syllables": 3,
+                "frequency": 0.000011
+            },
+            {
+                "word": "silenzio",
+                "syllables": 3,
+                "frequency": 0.0000794
+            },
+            {
+                "word": "seduto",
+                "syllables": 3,
+                "frequency": 0.000017
+            },
+            {
+                "word": "estate",
+                "syllables": 3,
+                "frequency": 0.0000692
+            },
+            {
+                "word": "bloccato",
+                "syllables": 3,
+                "frequency": 0.0000295
+            },
+            {
+                "word": "fegato",
+                "syllables": 3,
+                "frequency": 0.0000155
+            },
+            {
+                "word": "follia",
+                "syllables": 3,
+                "frequency": 0.0000204
+            },
+            {
+                "word": "proposto",
+                "syllables": 3,
+                "frequency": 0.0000372
+            },
+            {
+                "word": "organismo",
+                "syllables": 4,
+                "frequency": 0.0000117
+            },
+            {
+                "word": "periodo",
+                "syllables": 4,
+                "frequency": 0.000219
+            },
+            {
+                "word": "individuo",
+                "syllables": 4,
+                "frequency": 0.00002
+            },
+            {
+                "word": "ironia",
+                "syllables": 4,
+                "frequency": 0.0000186
+            },
+            {
+                "word": "atmosfera",
+                "syllables": 4,
+                "frequency": 0.00002
+            },
+            {
+                "word": "stabilire",
+                "syllables": 4,
+                "frequency": 0.0000269
+            },
+            {
+                "word": "assistente",
+                "syllables": 4,
+                "frequency": 0.0000219
+            },
+            {
+                "word": "sentimento",
+                "syllables": 4,
+                "frequency": 0.0000269
+            },
+            {
+                "word": "liberare",
+                "syllables": 4,
+                "frequency": 0.0000151
+            },
+            {
+                "word": "ragionare",
+                "syllables": 4,
+                "frequency": 0.00001
+            },
+            {
+                "word": "armonia",
+                "syllables": 4,
+                "frequency": 0.0000129
+            },
+            {
+                "word": "preparato",
+                "syllables": 4,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "assistito",
+                "syllables": 4,
+                "frequency": 0.0000148
+            },
+            {
+                "word": "fallimento",
+                "syllables": 4,
+                "frequency": 0.0000331
+            },
+            {
+                "word": "musicale",
+                "syllables": 4,
+                "frequency": 0.0000398
+            },
+            {
+                "word": "alternativa",
+                "syllables": 5,
+                "frequency": 0.000038
+            },
+            {
+                "word": "risoluzione",
+                "syllables": 5,
+                "frequency": 0.0000288
+            },
+            {
+                "word": "navigazione",
+                "syllables": 5,
+                "frequency": 0.0000178
+            },
+            {
+                "word": "segreteria",
+                "syllables": 5,
+                "frequency": 0.0000148
+            },
+            {
+                "word": "occidentale",
+                "syllables": 5,
+                "frequency": 0.000055
+            },
+            {
+                "word": "corrispondente",
+                "syllables": 5,
+                "frequency": 0.0000204
+            },
+            {
+                "word": "ragionamento",
+                "syllables": 5,
+                "frequency": 0.0000132
+            }
+        ]
+    },
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "volta",
+                "syllables": 2,
+                "frequency": 0.000741
+            },
+            {
+                "word": "pronto",
+                "syllables": 2,
+                "frequency": 0.0000776
+            },
+            {
+                "word": "stima",
+                "syllables": 2,
+                "frequency": 0.0000347
+            },
+            {
+                "word": "mente",
+                "syllables": 2,
+                "frequency": 0.000158
+            },
+            {
+                "word": "nove",
+                "syllables": 2,
+                "frequency": 0.0000479
+            },
+            {
+                "word": "sesso",
+                "syllables": 2,
+                "frequency": 0.000126
+            },
+            {
+                "word": "mago",
+                "syllables": 2,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "Juventus",
+                "syllables": 2,
+                "frequency": 0.0000138
+            },
+            {
+                "word": "gesto",
+                "syllables": 2,
+                "frequency": 0.0000339
+            },
+            {
+                "word": "scuro",
+                "syllables": 2,
+                "frequency": 0.0000132
+            },
+            {
+                "word": "teste",
+                "syllables": 2,
+                "frequency": 0.0000224
+            },
+            {
+                "word": "lento",
+                "syllables": 2,
+                "frequency": 0.0000166
+            },
+            {
+                "word": "tipo",
+                "syllables": 2,
+                "frequency": 0.000417
+            },
+            {
+                "word": "cosa",
+                "syllables": 2,
+                "frequency": 0.00158
+            },
+            {
+                "word": "fibra",
+                "syllables": 2,
+                "frequency": 0.0000123
+            },
+            {
+                "word": "domanda",
+                "syllables": 3,
+                "frequency": 0.000195
+            },
+            {
+                "word": "scrittura",
+                "syllables": 3,
+                "frequency": 0.0000339
+            },
+            {
+                "word": "colloquio",
+                "syllables": 3,
+                "frequency": 0.0000162
+            },
+            {
+                "word": "certezza",
+                "syllables": 3,
+                "frequency": 0.0000275
+            },
+            {
+                "word": "attuale",
+                "syllables": 3,
+                "frequency": 0.0000912
+            },
+            {
+                "word": "mestiere",
+                "syllables": 3,
+                "frequency": 0.0000174
+            },
+            {
+                "word": "sonora",
+                "syllables": 3,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "corrente",
+                "syllables": 3,
+                "frequency": 0.0000603
+            },
+            {
+                "word": "nipote",
+                "syllables": 3,
+                "frequency": 0.0000275
+            },
+            {
+                "word": "turismo",
+                "syllables": 3,
+                "frequency": 0.0000389
+            },
+            {
+                "word": "reale",
+                "syllables": 3,
+                "frequency": 0.000126
+            },
+            {
+                "word": "rottura",
+                "syllables": 3,
+                "frequency": 0.0000204
+            },
+            {
+                "word": "eletto",
+                "syllables": 3,
+                "frequency": 0.0000372
+            },
+            {
+                "word": "vincente",
+                "syllables": 3,
+                "frequency": 0.000011
+            },
+            {
+                "word": "provincia",
+                "syllables": 3,
+                "frequency": 0.000135
+            },
+            {
+                "word": "razzismo",
+                "syllables": 3,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "montaggio",
+                "syllables": 3,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "degrado",
+                "syllables": 3,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "settore",
+                "syllables": 3,
+                "frequency": 0.000105
+            },
+            {
+                "word": "stagione",
+                "syllables": 3,
+                "frequency": 0.000129
+            },
+            {
+                "word": "funzione",
+                "syllables": 3,
+                "frequency": 0.0000813
+            },
+            {
+                "word": "promosso",
+                "syllables": 3,
+                "frequency": 0.00002
+            },
+            {
+                "word": "impianto",
+                "syllables": 3,
+                "frequency": 0.0000282
+            },
+            {
+                "word": "agire",
+                "syllables": 3,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "contare",
+                "syllables": 3,
+                "frequency": 0.0000295
+            },
+            {
+                "word": "confronto",
+                "syllables": 3,
+                "frequency": 0.0000617
+            },
+            {
+                "word": "puntare",
+                "syllables": 3,
+                "frequency": 0.000012
+            },
+            {
+                "word": "trentino",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "mondiali",
+                "syllables": 3,
+                "frequency": 0.000038
+            },
+            {
+                "word": "progetto",
+                "syllables": 3,
+                "frequency": 0.000224
+            },
+            {
+                "word": "ancora",
+                "syllables": 3,
+                "frequency": 0.00117
+            },
+            {
+                "word": "teoria",
+                "syllables": 4,
+                "frequency": 0.0000708
+            },
+            {
+                "word": "mobilità",
+                "syllables": 4,
+                "frequency": 0.0000155
+            },
+            {
+                "word": "sentimento",
+                "syllables": 4,
+                "frequency": 0.0000269
+            },
+            {
+                "word": "evidenza",
+                "syllables": 4,
+                "frequency": 0.0000257
+            },
+            {
+                "word": "maratona",
+                "syllables": 4,
+                "frequency": 0.0000117
+            },
+            {
+                "word": "spazzatura",
+                "syllables": 4,
+                "frequency": 0.0000174
+            },
+            {
+                "word": "disperato",
+                "syllables": 4,
+                "frequency": 0.000012
+            },
+            {
+                "word": "confusione",
+                "syllables": 4,
+                "frequency": 0.000024
+            },
+            {
+                "word": "orgoglioso",
+                "syllables": 4,
+                "frequency": 0.000012
+            },
+            {
+                "word": "eleganza",
+                "syllables": 4,
+                "frequency": 0.0000102
+            },
+            {
+                "word": "svolgimento",
+                "syllables": 4,
+                "frequency": 0.0000166
+            },
+            {
+                "word": "avviato",
+                "syllables": 4,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "specialità",
+                "syllables": 4,
+                "frequency": 0.0000112
+            },
+            {
+                "word": "consulenza",
+                "syllables": 4,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "portoghese",
+                "syllables": 4,
+                "frequency": 0.0000148
+            },
+            {
+                "word": "razionale",
+                "syllables": 4,
+                "frequency": 0.0000129
+            },
+            {
+                "word": "funzionare",
+                "syllables": 4,
+                "frequency": 0.0000229
+            },
+            {
+                "word": "elementare",
+                "syllables": 5,
+                "frequency": 0.0000174
+            }
+        ]
+    },
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "rame",
+                "syllables": 2,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "paga",
+                "syllables": 2,
+                "frequency": 0.0000398
+            },
+            {
+                "word": "Liguria",
+                "syllables": 2,
+                "frequency": 0.0000155
+            },
+            {
+                "word": "strage",
+                "syllables": 2,
+                "frequency": 0.0000145
+            },
+            {
+                "word": "classe",
+                "syllables": 2,
+                "frequency": 0.000155
+            },
+            {
+                "word": "terzo",
+                "syllables": 2,
+                "frequency": 0.000126
+            },
+            {
+                "word": "villa",
+                "syllables": 2,
+                "frequency": 0.0000575
+            },
+            {
+                "word": "lana",
+                "syllables": 2,
+                "frequency": 0.0000148
+            },
+            {
+                "word": "bel",
+                "syllables": 2,
+                "frequency": 0.000141
+            },
+            {
+                "word": "odio",
+                "syllables": 2,
+                "frequency": 0.0000832
+            },
+            {
+                "word": "pepe",
+                "syllables": 2,
+                "frequency": 0.0000112
+            },
+            {
+                "word": "babbo",
+                "syllables": 2,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "salto",
+                "syllables": 2,
+                "frequency": 0.0000275
+            },
+            {
+                "word": "olio",
+                "syllables": 2,
+                "frequency": 0.0000479
+            },
+            {
+                "word": "marco",
+                "syllables": 2,
+                "frequency": 0.0000776
+            },
+            {
+                "word": "libro",
+                "syllables": 2,
+                "frequency": 0.000229
+            },
+            {
+                "word": "alfa",
+                "syllables": 2,
+                "frequency": 0.000011
+            },
+            {
+                "word": "nipote",
+                "syllables": 3,
+                "frequency": 0.0000275
+            },
+            {
+                "word": "esposto",
+                "syllables": 3,
+                "frequency": 0.0000166
+            },
+            {
+                "word": "partenza",
+                "syllables": 3,
+                "frequency": 0.0000501
+            },
+            {
+                "word": "inverno",
+                "syllables": 3,
+                "frequency": 0.0000339
+            },
+            {
+                "word": "contea",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "terreno",
+                "syllables": 3,
+                "frequency": 0.000055
+            },
+            {
+                "word": "nazista",
+                "syllables": 3,
+                "frequency": 0.000012
+            },
+            {
+                "word": "moderno",
+                "syllables": 3,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "potente",
+                "syllables": 3,
+                "frequency": 0.0000447
+            },
+            {
+                "word": "regalo",
+                "syllables": 3,
+                "frequency": 0.0000437
+            },
+            {
+                "word": "augusto",
+                "syllables": 3,
+                "frequency": 0.0000129
+            },
+            {
+                "word": "padrone",
+                "syllables": 3,
+                "frequency": 0.0000269
+            },
+            {
+                "word": "rapida",
+                "syllables": 3,
+                "frequency": 0.0000219
+            },
+            {
+                "word": "lezione",
+                "syllables": 3,
+                "frequency": 0.0000525
+            },
+            {
+                "word": "invio",
+                "syllables": 3,
+                "frequency": 0.0000126
+            },
+            {
+                "word": "archivio",
+                "syllables": 3,
+                "frequency": 0.000024
+            },
+            {
+                "word": "solido",
+                "syllables": 3,
+                "frequency": 0.0000107
+            },
+            {
+                "word": "mattina",
+                "syllables": 3,
+                "frequency": 0.000105
+            },
+            {
+                "word": "rendersi",
+                "syllables": 3,
+                "frequency": 0.0000115
+            },
+            {
+                "word": "inferno",
+                "syllables": 3,
+                "frequency": 0.0000174
+            },
+            {
+                "word": "ridurre",
+                "syllables": 3,
+                "frequency": 0.0000417
+            },
+            {
+                "word": "quindici",
+                "syllables": 3,
+                "frequency": 0.0000219
+            },
+            {
+                "word": "entità",
+                "syllables": 3,
+                "frequency": 0.000024
+            },
+            {
+                "word": "idiota",
+                "syllables": 3,
+                "frequency": 0.0000219
+            },
+            {
+                "word": "pubblico",
+                "syllables": 3,
+                "frequency": 0.000251
+            },
+            {
+                "word": "stazione",
+                "syllables": 3,
+                "frequency": 0.0000741
+            },
+            {
+                "word": "miniera",
+                "syllables": 3,
+                "frequency": 0.0000105
+            },
+            {
+                "word": "ospite",
+                "syllables": 3,
+                "frequency": 0.0000275
+            },
+            {
+                "word": "pistola",
+                "syllables": 3,
+                "frequency": 0.0000219
+            },
+            {
+                "word": "diploma",
+                "syllables": 3,
+                "frequency": 0.0000178
+            },
+            {
+                "word": "colazione",
+                "syllables": 4,
+                "frequency": 0.0000398
+            },
+            {
+                "word": "trasparente",
+                "syllables": 4,
+                "frequency": 0.000012
+            },
+            {
+                "word": "assumere",
+                "syllables": 4,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "razionale",
+                "syllables": 4,
+                "frequency": 0.0000129
+            },
+            {
+                "word": "complicato",
+                "syllables": 4,
+                "frequency": 0.0000186
+            },
+            {
+                "word": "efficiente",
+                "syllables": 4,
+                "frequency": 0.0000123
+            },
+            {
+                "word": "intendere",
+                "syllables": 4,
+                "frequency": 0.000012
+            },
+            {
+                "word": "accadere",
+                "syllables": 4,
+                "frequency": 0.0000148
+            },
+            {
+                "word": "raccogliere",
+                "syllables": 4,
+                "frequency": 0.0000316
+            },
+            {
+                "word": "assistito",
+                "syllables": 4,
+                "frequency": 0.0000148
+            },
+            {
+                "word": "piacevole",
+                "syllables": 4,
+                "frequency": 0.0000204
+            },
+            {
+                "word": "ragazzino",
+                "syllables": 4,
+                "frequency": 0.0000174
+            },
+            {
+                "word": "costruire",
+                "syllables": 4,
+                "frequency": 0.000055
+            },
+            {
+                "word": "Ungheria",
+                "syllables": 4,
+                "frequency": 0.0000158
+            },
+            {
+                "word": "fortemente",
+                "syllables": 4,
+                "frequency": 0.0000372
+            },
+            {
+                "word": "difensore",
+                "syllables": 4,
+                "frequency": 0.0000178
+            },
+            {
+                "word": "integrazione",
+                "syllables": 5,
+                "frequency": 0.0000295
+            }
+        ]
+    },
+    {
+        "type": "random",
+        "length": 64,
+        "categories": [],
+        "words": [
+            {
+                "word": "caro",
+                "syllables": 2,
+                "frequency": 0.0000631
+            },
+            {
+                "word": "età",
+                "syllables": 2,
+                "frequency": 0.000129
+            },
+            {
+                "word": "giunta",
+                "syllables": 2,
+                "frequency": 0.0000447
+            },
+            {
+                "word": "caso",
+                "syllables": 2,
+                "frequency": 0.000631
+            },
+            {
+                "word": "bis",
+                "syllables": 2,
+                "frequency": 0.0000166
+            },
+            {
+                "word": "neve",
+                "syllables": 2,
+                "frequency": 0.0000288
+            },
+            {
+                "word": "viola",
+                "syllables": 2,
+                "frequency": 0.000024
+            },
+            {
+                "word": "presa",
+                "syllables": 2,
+                "frequency": 0.0000912
+            },
+            {
+                "word": "farsi",
+                "syllables": 2,
+                "frequency": 0.0000912
+            },
+            {
+                "word": "petto",
+                "syllables": 2,
+                "frequency": 0.0000234
+            },
+            {
+                "word": "storia",
+                "syllables": 2,
+                "frequency": 0.000537
+            },
+            {
+                "word": "borsa",
+                "syllables": 2,
+                "frequency": 0.0000427
+            },
+            {
+                "word": "paga",
+                "syllables": 2,
+                "frequency": 0.0000398
+            },
+            {
+                "word": "pelle",
+                "syllables": 2,
+                "frequency": 0.0000708
+            },
+            {
+                "word": "fila",
+                "syllables": 2,
+                "frequency": 0.0000468
+            },
+            {
+                "word": "schiena",
+                "syllables": 2,
+                "frequency": 0.0000251
+            },
+            {
+                "word": "cifra",
+                "syllables": 2,
+                "frequency": 0.0000282
+            },
+            {
+                "word": "visto",
+                "syllables": 2,
+                "frequency": 0.000513
+            },
+            {
+                "word": "mistero",
+                "syllables": 3,
+                "frequency": 0.0000257
+            },
+            {
+                "word": "leggenda",
+                "syllables": 3,
+                "frequency": 0.0000224
+            },
+            {
+                "word": "presente",
+                "syllables": 3,
+                "frequency": 0.000195
+            },
+            {
+                "word": "circolo",
+                "syllables": 3,
+                "frequency": 0.0000245
+            },
+            {
+                "word": "dottrina",
+                "syllables": 3,
+                "frequency": 0.0000135
+            },
+            {
+                "word": "postale",
+                "syllables": 3,
+                "frequency": 0.0000129
+            },
+            {
+                "word": "ripresa",
+                "syllables": 3,
+                "frequency": 0.0000363
+            },
+            {
+                "word": "oggetto",
+                "syllables": 3,
+                "frequency": 0.0000813
+            },
+            {
+                "word": "prendersi",
+                "syllables": 3,
+                "frequency": 0.0000191
+            },
+            {
+                "word": "richiesta",
+                "syllables": 3,
+                "frequency": 0.0000955
+            },
+            {
+                "word": "scoprire",
+                "syllables": 3,
+                "frequency": 0.0000589
+            },
+            {
+                "word": "attuale",
+                "syllables": 3,
+                "frequency": 0.0000912
+            },
+            {
+                "word": "cervello",
+                "syllables": 3,
+                "frequency": 0.0000617
+            },
+            {
+                "word": "sentirsi",
+                "syllables": 3,
+                "frequency": 0.0000263
+            },
+            {
+                "word": "Parigi",
+                "syllables": 3,
+                "frequency": 0.0000724
+            },
+            {
+                "word": "scomparso",
+                "syllables": 3,
+                "frequency": 0.0000151
+            },
+            {
+                "word": "rivolta",
+                "syllables": 3,
+                "frequency": 0.0000355
+            },
+            {
+                "word": "seguire",
+                "syllables": 3,
+                "frequency": 0.0000933
+            },
+            {
+                "word": "Giappone",
+                "syllables": 3,
+                "frequency": 0.0000575
+            },
+            {
+                "word": "cattura",
+                "syllables": 3,
+                "frequency": 0.0000117
+            },
+            {
+                "word": "palese",
+                "syllables": 3,
+                "frequency": 0.0000102
+            },
+            {
+                "word": "migliore",
+                "syllables": 3,
+                "frequency": 0.000251
+            },
+            {
+                "word": "agente",
+                "syllables": 3,
+                "frequency": 0.0000347
+            },
+            {
+                "word": "maestà",
+                "syllables": 3,
+                "frequency": 0.000011
+            },
+            {
+                "word": "angelo",
+                "syllables": 3,
+                "frequency": 0.0000437
+            },
+            {
+                "word": "sindrome",
+                "syllables": 3,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "epoca",
+                "syllables": 3,
+                "frequency": 0.0000417
+            },
+            {
+                "word": "fallito",
+                "syllables": 3,
+                "frequency": 0.0000229
+            },
+            {
+                "word": "prezioso",
+                "syllables": 3,
+                "frequency": 0.0000162
+            },
+            {
+                "word": "ritratto",
+                "syllables": 3,
+                "frequency": 0.0000245
+            },
+            {
+                "word": "dimostrare",
+                "syllables": 4,
+                "frequency": 0.0000447
+            },
+            {
+                "word": "cimitero",
+                "syllables": 4,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "meraviglia",
+                "syllables": 4,
+                "frequency": 0.000017
+            },
+            {
+                "word": "pienamente",
+                "syllables": 4,
+                "frequency": 0.0000191
+            },
+            {
+                "word": "infinito",
+                "syllables": 4,
+                "frequency": 0.0000141
+            },
+            {
+                "word": "uniforme",
+                "syllables": 4,
+                "frequency": 0.0000132
+            },
+            {
+                "word": "strettamente",
+                "syllables": 4,
+                "frequency": 0.0000214
+            },
+            {
+                "word": "pubblicità",
+                "syllables": 4,
+                "frequency": 0.0000617
+            },
+            {
+                "word": "divinità",
+                "syllables": 4,
+                "frequency": 0.0000129
+            },
+            {
+                "word": "attaccato",
+                "syllables": 4,
+                "frequency": 0.0000224
+            },
+            {
+                "word": "spettacolo",
+                "syllables": 4,
+                "frequency": 0.0000692
+            },
+            {
+                "word": "ignorare",
+                "syllables": 4,
+                "frequency": 0.0000138
+            },
+            {
+                "word": "arrivare",
+                "syllables": 4,
+                "frequency": 0.00012
+            },
+            {
+                "word": "personale",
+                "syllables": 4,
+                "frequency": 0.00017
+            },
+            {
+                "word": "protocollo",
+                "syllables": 4,
+                "frequency": 0.0000155
+            },
+            {
+                "word": "garanzia",
+                "syllables": 4,
+                "frequency": 0.0000316
+            }
+        ]
+    }
+]

@@ -1,42 +1,38 @@
 import { db } from '$api/src/lib/db'
+import { ListType } from '@prisma/client'
+
+import randomWords from './data/random_categories.json'
+import categorizedWords from './data/output_categories.json'
+import wordCategories from './data/whole_categories.json'
 
 export default async () => {
-  try {
-    //
-    // Manually seed via `yarn rw prisma db seed`
-    // Seeds automatically with `yarn rw prisma migrate dev` and `yarn rw prisma migrate reset`
-    //
-    // Update "const data = []" to match your data model and seeding needs
-    //
-    const data = [
-      // To try this example data with the UserExample model in schema.prisma,
-      // uncomment the lines below and run 'yarn rw prisma migrate dev'
-      //
-      // { name: 'alice', email: 'alice@example.com' },
-      // { name: 'mark', email: 'mark@example.com' },
-      // { name: 'jackie', email: 'jackie@example.com' },
-      // { name: 'bob', email: 'bob@example.com' },
-    ]
-    console.log(
-      "\nUsing the default './scripts/seed.js' template\nEdit the file to add seed data\n"
-    )
+  console.info('Resetting WordLists...')
+  db.wordList.deleteMany({})
 
-    // Note: if using PostgreSQL, using `createMany` to insert multiple records is much faster
-    // @see: https://www.prisma.io/docs/reference/api-reference/prisma-client-reference#createmany
-    Promise.all(
-      //
-      // Change to match your data model and seeding needs
-      //
-      data.map(async (userExample) => {
-        const record = await db.userExample.create({
-          data: { name: userExample.name, email: userExample.email },
-        })
+  console.log('Seeding random words...')
+  const result = await db.wordList.createMany({
+    data: randomWords.map((obj) => ({
+      ...obj,
+      type: ListType.RANDOM,
+    })),
+  })
+  console.log(`Seeded ${result.count} random lists\n`)
 
-        console.log(record)
-      })
-    )
-  } catch (error) {
-    console.warn('Please define your seed data.')
-    console.error(error)
-  }
+  console.log('Seeding categorized words...')
+  const result2 = await db.wordList.createMany({
+    data: categorizedWords.map((obj) => ({
+      ...obj,
+      type: ListType.CATEGORIZED,
+    })),
+  })
+  console.log(`Seeded ${result2.count} categorized lists\n`)
+
+  console.log('Seeding categories...')
+  const result3 = await db.wordList.createMany({
+    data: wordCategories.map((obj) => ({
+      ...obj,
+      type: ListType.CATEGORY,
+    })),
+  })
+  console.log(`Seeded ${result3.count} categories\n`)
 }
