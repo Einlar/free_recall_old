@@ -21,7 +21,8 @@ model RecallRecord {
   createdAt      DateTime   @default(now())
   type           RecordType
   presentedWords String[]
-  words          Json[]
+  words          Json[] //Recalled or recognized words
+  categories     String[]
   subject        Subject    @relation(fields: [subjectId], references: [id])
   subjectId      String
 }

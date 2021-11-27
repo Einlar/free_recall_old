@@ -7,6 +7,7 @@ const ExperimentSteps = ({
   form: FormComponent,
   words,
   categories,
+  subjectId,
 }) => {
   const [step, setStep] = useState(0)
 
@@ -19,7 +20,13 @@ const ExperimentSteps = ({
     <>
       {step === 0 && <ExplainComponent nextStep={nextStep} />}
       {step === 1 && <Presenter wordList={words} endPresentation={nextStep} />}
-      {step === 2 && <FormComponent />}
+      {step === 2 && (
+        <FormComponent
+          presentedWords={words}
+          subjectId={subjectId}
+          categories={categories}
+        />
+      )}
     </>
   )
 }

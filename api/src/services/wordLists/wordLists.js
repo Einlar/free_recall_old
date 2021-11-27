@@ -1,10 +1,13 @@
 import { db } from 'src/lib/db'
 import { ListType, RecordType } from '@prisma/client'
+import shuffle from 'lodash'
 
 export const wordLists = () => {
   return db.wordList.findMany()
 }
 
+//Returns the type of the last experiment performed by `subjectId`
+//Output: { records: [{type: <type>, categories: [<categories>]}] }
 const getLastExperimentType = async ({ subjectId }) => {
   return await db.subject.findUnique({
     where: {
@@ -17,15 +20,29 @@ const getLastExperimentType = async ({ subjectId }) => {
         },
         select: {
           type: true,
+          categories: true,
         },
         take: 1,
       },
     },
   })
 
+  // return {
+  //   records: [
+  //     {
+  //       type: 'RECALL',
+  //       categories: ['animals', 'vehicles'],
+  //     },
+  //   ],
+  // }
+
   //TODO Add a filter on the length of words, so that "empty" experiments are not considered
+  // => Simpler: add the experiment on db only if words is non-empty!
 }
 
+//Returns a random list of words from the ones existing in the db.
+//Can be either `categorized` or not, and must not include the categories
+//in `avoidCategories`
 const getWordlist = async ({ categorized = false, avoidCategories = [] }) => {
   const listPool = await db.wordList.findMany({
     where: {
@@ -51,28 +68,46 @@ const getWordlist = async ({ categorized = false, avoidCategories = [] }) => {
     },
   })
 
-  //TODO Shuffle the words
-
   return wordList
 }
 
-// const getDistractors = async ({ wordList }) => {
-//   const categories = wordList.categories
+//Retrieve all the words from a list of `categories`
+const getWordsFromCategories = async ({ categories = [] }) => {
+  const wordLists = await db.wordList.findMany({
+    where: {
+      type: ListType.CATEGORY,
+      categories: {
+        hasSome: categories,
+      },
+    },
+    select: {
+      words: true,
+    },
+  })
 
-//Get all words from the two categories
+  //Merge all words in a single array
+  return wordLists.reduce((obj, item) => {
+    obj.push(...item.words)
+    return obj
+  }, [])
+}
 
-//Get words that were not shown
+const getAllRandomWords = async () => {
+  const wordLists = await db.wordList.findMany({
+    where: {
+      type: ListType.RANDOM,
+    },
+    select: {
+      words: true,
+    },
+  })
 
-//The distractor for each word is a word with similar frequency
-// var distractors = [];
-// words_to_present.forEach(pWord => {
-//     let freqDiff = new_words.map((nWord) => Math.abs(nWord.frequency - pWord.frequency));
-//     const index = freqDiff.indexOf(Math.min(...freqDiff));
-
-//     distractors.push(new_words[index]);
-//     new_words.splice(index, 1);
-// });
-// }
+  //Merge all words in a single array
+  return wordLists.reduce((obj, item) => {
+    obj.push(...item.words)
+    return obj
+  }, [])
+}
 
 export const getExperiment = async ({ email, age, gender }) => {
   //Retrieve subjectId
@@ -87,7 +122,7 @@ export const getExperiment = async ({ email, age, gender }) => {
     },
   })
 
-  //If it does not exist, create a new Subject
+  //If it does not exist, create a new Subject, and retrieve their subjectId
   if (!subjectId) {
     subjectId = await db.subject.create({
       data: {
@@ -103,36 +138,80 @@ export const getExperiment = async ({ email, age, gender }) => {
   subjectId = subjectId.id
   console.log(`Subject ID: ${subjectId}`)
 
+  //By default, the first experiment to be done is RECALL
+  //If an experiment has already been done by the same `subjectId`
+  //then pick the other type of experiment (Recall <-> Recognition)
+
+  //Get new wordList.
+  //It is `categorized` only if the previous list was categorized.
+  //If there was no previous list for `subjectId`, then the `categorized` is randomized
+
   let experimentType = RecordType.RECALL
-  const lastExperiments = await getLastExperimentType({ subjectId }).records
+  let avoidCategories = []
+  const lastExperiments = (await getLastExperimentType({ subjectId })).records
+  let categorized = Math.floor(Math.random() * 2) === 0
+
+  console.log('Last experiments', lastExperiments)
   if (lastExperiments && lastExperiments.length > 0) {
+    console.log('There was a previous experiment: ', lastExperiments[0])
     const lastExperimentType = lastExperiments[0].type
     experimentType =
       lastExperimentType === RecordType.RECALL
         ? RecordType.RECOGNITION
         : RecordType.RECALL
+    avoidCategories = lastExperiments[0].categories
+    categorized = lastExperiments[0].categories.length > 0
   }
 
-  console.log(experimentType)
+  console.log('New experiment will be of type: ', experimentType)
+  console.log(
+    `Choosing a new list with (categorized: ${categorized}, avoidCategories: ${avoidCategories})`
+  )
+
+  const wordList = await getWordlist({ categorized, avoidCategories })
+
   if (experimentType === RecordType.RECALL) {
-    const categorized = Math.floor(Math.random() * 2) === 0
-    const wordList = await getWordlist({ categorized })
     return {
+      subjectId,
       experimentType,
       categorized,
-      words: wordList.words,
+      words: shuffle(wordList.words), //Shuffle words
       categories: wordList.categories,
     }
   }
-  //TODO
-  //Retrieve last experiment type (recall/recognition) and choose the other (or start from recall)
-  //Then choose categorized or random (reread in the thesis the exact procedure)
-  //If categorized, retrieve last experiment categories and avoid them
 
-  //Retrieve the distractors for the recognition task and add them to the JSON
+  //Add distractors to each word (only for the Recognition experiment)
+  if (experimentType === RecordType.RECOGNITION) {
+    let distractors = []
+    if (categorized) {
+      distractors = await getWordsFromCategories({
+        categories: wordList.categories,
+      })
+    } else {
+      distractors = await getAllRandomWords()
+    }
 
-  //Maybe use a well defined schema as return type.
+    //Distractors cannot appear in the main list
+    const wordsInList = wordList.words.map((item) => item.word)
+    distractors = distractors.filter((item) => !wordsInList.includes(item.word))
 
-  // console.log(await getRecallExperiment({ categorized: true }))
-  // return [{ word: 'Ciao' }]
+    //For each word to present, pick the distractor with the most similar frequency.
+    for (let idx = 0; idx < wordList.words.length; idx++) {
+      const freqDiff = distractors.map((item) =>
+        Math.abs(item.frequency - wordList.words[idx].frequency)
+      )
+      const minIndex = freqDiff.indexOf(Math.min(...freqDiff))
+
+      wordList.words[idx]['distractor'] = distractors[minIndex]
+      distractors.splice(minIndex, 1) //This distractor has been "used up", so it is removed
+    }
+
+    return {
+      subjectId,
+      experimentType,
+      categorized,
+      words: shuffle(wordList.words),
+      categories: wordList.categories,
+    }
+  }
 }

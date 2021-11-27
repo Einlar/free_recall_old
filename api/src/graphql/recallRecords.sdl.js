@@ -22,6 +22,7 @@ export const schema = gql`
     type: RecordType!
     presentedWords: [String]!
     words: [JSON]!
+    categories: [String]
     subjectId: String!
   }
 
@@ -29,6 +30,11 @@ export const schema = gql`
     type: RecordType
     presentedWords: [String]!
     words: [JSON]!
+    categories: [String]
     subjectId: String
+  }
+
+  type Mutation {
+    createRecallRecord(input: CreateRecallRecordInput!): RecallRecord! @skipAuth
   }
 `

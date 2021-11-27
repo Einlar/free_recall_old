@@ -23,7 +23,8 @@ const Presenter = ({ wordList, endPresentation }) => {
 
   //Show all words, one at a time, and call `endPresentation` at the end
   useEffect(() => {
-    if (index < wordList.length) {
+    if (index < 1) {
+      //wordList.length
       setTimeout(showWord, 500)
     } else {
       setTimeout(endPresentation, 1000)

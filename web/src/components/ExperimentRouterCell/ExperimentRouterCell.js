@@ -1,6 +1,8 @@
 import ExperimentSteps from 'src/components/ExperimentSteps'
 import ExplainRecall from 'src/components/Recall/ExplainRecall'
+import ExplainRecognition from 'src/components/Recognition/ExplainRecognition'
 import FormRecall from 'src/components/Recall/FormRecall'
+import FormRecognition from 'src/components/Recognition/FormRecognition'
 
 export const QUERY = gql`
   query FetchExperimentData($email: String!, $age: Int!, $gender: Gender!) {
@@ -17,7 +19,7 @@ export const Failure = ({ error }) => (
 )
 
 export const Success = ({ getExperiment: experimentData }) => {
-  const { experimentType, words, categories } = experimentData
+  const { experimentType, words, categories, subjectId } = experimentData
 
   return (
     <>
@@ -27,13 +29,18 @@ export const Success = ({ getExperiment: experimentData }) => {
           form={FormRecall}
           words={words}
           categories={categories}
+          subjectId={subjectId}
         />
       )}
       {experimentType === 'RECOGNITION' && (
-        <p>Recognition Task (Work in Progress)</p>
+        <ExperimentSteps
+          explain={ExplainRecognition}
+          form={FormRecognition}
+          words={words}
+          categories={categories}
+          subjectId={subjectId}
+        />
       )}
     </>
   )
-
-  // return <div>{JSON.stringify(getExperiment)}</div>
 }
