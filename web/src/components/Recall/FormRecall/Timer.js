@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
+import { styled } from 'src/ui/stitches.config'
 
-const Timer = ({ countdownSeconds = 60, endTask }) => {
+const Timer = ({ countdownSeconds = 360, endTask }) => {
   const durationMinutes = Math.floor(countdownSeconds / 60)
   const durationSeconds = countdownSeconds % 60
 
@@ -32,7 +33,7 @@ const Timer = ({ countdownSeconds = 60, endTask }) => {
 
   //endTask callback is called when the timer ends
   return (
-    <div className="timer">
+    <Countdown className="timer">
       {minutes.toLocaleString('en-US', {
         minimumIntegerDigits: 2,
         useGrouping: false,
@@ -42,8 +43,19 @@ const Timer = ({ countdownSeconds = 60, endTask }) => {
         minimumIntegerDigits: 2,
         useGrouping: false,
       })}
-    </div>
+    </Countdown>
   )
 }
+
+const Countdown = styled('div', {
+  fontSize: '2rem',
+  fontFamily:
+    '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+  letterSpacing: '0.125rem',
+  fontWeight: 'normal',
+  textTransform: 'uppercase',
+  color: '#333',
+  textAlign: 'center',
+})
 
 export default Timer

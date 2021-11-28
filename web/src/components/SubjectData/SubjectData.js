@@ -1,6 +1,7 @@
 import SubjectForm from 'src/components/SubjectForm'
 import { useState } from 'react'
 import { navigate, routes } from '@redwoodjs/router'
+import { styled } from 'src/ui/stitches.config'
 
 const SubjectData = () => {
   const userData =
@@ -47,14 +48,49 @@ const SubjectData = () => {
         <strong>Genere: </strong>
         {genderMap[userData.gender]}
       </p>
-      <button type="button" onClick={clearData}>
-        Modifica Dati
-      </button>
-      <button type="button" onClick={goNext}>
-        Comincia l&apos;esperimento!
-      </button>
+      <div
+        style={{
+          display: 'flex',
+          width: '100%',
+          justifyContent: 'center',
+        }}
+      >
+        <EditButton type="button" onClick={clearData}>
+          Modifica Dati
+        </EditButton>
+        <NextButton type="button" onClick={goNext}>
+          Comincia l&apos;esperimento!
+        </NextButton>
+      </div>
     </div>
   )
 }
+
+const EditButton = styled('button', {
+  backgroundColor: '$blue9',
+  color: '#fff',
+  fontSize: '16px',
+  border: '2px solid $blue11',
+  padding: '10px',
+  borderRadius: '5px',
+  '&:hover': {
+    backgroundColor: '$blue10',
+    borderColor: '$blue12',
+  },
+})
+
+const NextButton = styled('button', {
+  backgroundColor: '$red9',
+  color: '#fff',
+  fontSize: '16px',
+  padding: '10px',
+  border: '2px solid $red11',
+  borderRadius: '5px',
+  marginLeft: '10px',
+  '&:hover': {
+    backgroundColor: '$red10',
+    borderColor: '$red12',
+  },
+})
 
 export default SubjectData

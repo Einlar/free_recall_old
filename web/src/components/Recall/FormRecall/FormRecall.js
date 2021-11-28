@@ -2,6 +2,8 @@ import { useMutation } from '@redwoodjs/web'
 import { useState, useEffect } from 'react'
 import { navigate, routes } from '@redwoodjs/router'
 import Timer from './Timer'
+import { Button } from 'src/components/ui/Button'
+import { styled } from 'src/ui/stitches.config'
 
 const ADD_RECORD = gql`
   mutation FormRecall_CreateRecallRecord($input: CreateRecallRecordInput!) {
@@ -134,17 +136,17 @@ const FormRecall = ({ subjectId, presentedWords, categories = [] }) => {
   }
 
   return (
-    <div id="wrapform">
+    <WrapForm id="wrapform">
       <p>
-        Scrivi tutte le parole che ricordi, in un <b>ordine qualsiasi</b>. Premi
+        Scrivi tutte le parole che ricordi, in un <b>ordine qualsiasi</b>. Premi{' '}
         <b>INVIO</b> (o barra spaziatrice) dopo ogni parola inserita.
       </p>
       <p>
         Se non ne ricordi altre, puoi concludere in anticipo facendo click su{' '}
         <i>Termina Esperimento</i>
       </p>
-      <Timer countdownSeconds={5} endTask={() => setSubmit(true)} />
-      <input
+      <Timer countdownSeconds={6 * 60} endTask={() => setSubmit(true)} />
+      <EnterWord
         id="enterword"
         maxLength="40"
         spellCheck="false"
@@ -153,11 +155,38 @@ const FormRecall = ({ subjectId, presentedWords, categories = [] }) => {
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={recordKeyDown}
       />
-      <button type="button" onClick={() => setSubmit(true)}>
+      <Button type="button" onClick={() => setSubmit(true)}>
         Termina l&apos;esperimento.
-      </button>
-    </div>
+      </Button>
+    </WrapForm>
   )
 }
+
+const WrapForm = styled('div', {
+  fontSize: '18px',
+  display: 'flex',
+  justifyContent: 'center',
+  alignContent: 'space-around',
+  flexWrap: 'wrap',
+  flexDirection: 'column',
+  alignItems: 'center',
+  margin: '0.5rem',
+  padding: '0.5rem',
+})
+
+const EnterWord = styled('input', {
+  border: '0px',
+  outline: 'none',
+  fontSize: '2rem',
+  fontWeight: '400',
+  color: '#383838',
+  textAlign: 'center',
+  background: '#ffd4bd',
+  fontFamily: 'monospace',
+  boxShadow: '1px 0px rgb(237, 138, 117)',
+  width: '100%',
+  margin: '2rem 0',
+  padding: '.5rem 0',
+})
 
 export default FormRecall

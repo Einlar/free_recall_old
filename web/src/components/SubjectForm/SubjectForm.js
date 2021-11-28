@@ -5,9 +5,9 @@ import {
   FieldError,
   SelectField,
   NumberField,
-  Submit,
 } from '@redwoodjs/forms'
 import { globalCss } from '@stitches/react'
+import { styled } from 'src/ui/stitches.config'
 
 const SubjectForm = ({ onSubmit: submitCallback }) => {
   globalStyles()
@@ -74,6 +74,7 @@ const SubjectForm = ({ onSubmit: submitCallback }) => {
         </Label>
         <SelectField
           name="gender"
+          className="input"
           validation={{
             required: true,
             validate: {
@@ -93,7 +94,9 @@ const SubjectForm = ({ onSubmit: submitCallback }) => {
         </SelectField>
         <FieldError name="gender" className="error-message" />
 
-        <Submit className="button">Conferma i Dati</Submit>
+        <SubmitButton type="submit" className="button">
+          Conferma i Dati
+        </SubmitButton>
       </Form>
     </>
   )
@@ -109,24 +112,25 @@ const globalStyles = globalCss({
   '.input, .button, .error-message': {
     gridColumn: '2 / 3',
   },
+  '.input ': {
+    padding: '5px',
+    fontSize: '16px',
+    borderRadius: '7px',
+  },
 })
 
-// const StyledButton = styled(Submit, {
-//   fontSize: '1.3em',
-//   padding: '0.35em 1.2em',
-//   border: '0.1em solid #d61816',
-//   margin: '0.3em',
-//   borderRadius: '0.12em',
-//   boxSizing: 'border-box',
-//   textDecoration: 'none',
-//   fontFamily: 'Roboto, sans-serif',
-//   fontWeight: 300,
-//   color: '#d61816',
-//   textAlign: 'center',
-//   transition: 'all 0.2s',
-//   backgroundColor: '#fde2d2',
-//   '&:hover': {
-//     backgroundColor: '#ffb78b',
-//   },
-// })
+const SubmitButton = styled('button', {
+  backgroundColor: '$red9',
+  color: '#fff',
+  fontSize: '16px',
+  padding: '10px',
+  border: '2px solid $red11',
+  borderRadius: '5px',
+  marginLeft: '10px',
+  '&:hover': {
+    backgroundColor: '$red10',
+    borderColor: '$red12',
+  },
+})
+
 export default SubjectForm

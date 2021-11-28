@@ -10,10 +10,14 @@ const ThankYouPage = () => {
       You can look at this documentation for best practices : https://developers.google.com/search/docs/advanced/appearance/good-titles-snippets */
       />
 
-      <div>
-        <p>
-          L&apos;esperimento è andato a buon fine! Grazie per avere partecipato!
-        </p>
+      <div
+        style={{
+          fontSize: '18px',
+          textAlign: 'center',
+        }}
+      >
+        <p>L&apos;esperimento è andato a buon fine!</p>
+        <p> Grazie per avere partecipato!</p>
         <p>
           Puoi ora <b>chiudere</b> questa pagina.
         </p>

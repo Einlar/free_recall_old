@@ -1,9 +1,11 @@
 import presentationGif from './img/presentation_ita_random.gif'
 import recallGif from './img/recall_ita_random.gif'
+import { Button } from 'src/components/ui/Button'
+import { styled } from 'src/ui/stitches.config'
 
 const ExplainRecall = ({ nextStep }) => {
   return (
-    <div className="main_container">
+    <MainContainer className="main_container">
       <p>
         In questo esperimento è richiesta la tua <b>piena attenzione</b> per al
         massimo <b>7 minuti</b>, perciò scegli un ambiente{' '}
@@ -17,9 +19,9 @@ const ExplainRecall = ({ nextStep }) => {
           </p>
         </li>
       </ul>
-      <p>
+      <CenterImage>
         <img src={presentationGif} alt="loading gif..." />
-      </p>
+      </CenterImage>
       <span>
         <p>
           Cerca di ricordarne il <b>maggior numero possibile!</b>
@@ -34,9 +36,9 @@ const ExplainRecall = ({ nextStep }) => {
           </p>
         </li>
       </ul>
-      <p>
+      <CenterImage>
         <img src={recallGif} alt="loading gif..." />
-      </p>
+      </CenterImage>
       <span>
         <p>
           {/* Inserire qualcosa sui typo / intrusions? */}
@@ -56,11 +58,24 @@ const ExplainRecall = ({ nextStep }) => {
           .
         </p>
       </span>
-      <button type="button" onClick={() => nextStep()}>
-        Comincia l&apos;Esperimento
-      </button>
-    </div>
+      <CenterImage>
+        <Button type="button" onClick={() => nextStep()}>
+          Comincia l&apos;Esperimento
+        </Button>
+      </CenterImage>
+    </MainContainer>
   )
 }
+
+export const MainContainer = styled('div', {
+  padding: '2rem',
+  margin: 'auto',
+  maxWidth: '90%',
+  fontSize: '18px',
+})
+
+export const CenterImage = styled('div', {
+  textAlign: 'center',
+})
 
 export default ExplainRecall

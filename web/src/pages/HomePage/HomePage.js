@@ -13,7 +13,7 @@ const HomePage = () => {
       />
 
       <FormFree>
-        <p> Ciao! </p>
+        <p style={{ fontSize: '24px' }}> Ciao! </p>
         <p>
           Sono Francesco Manzali, uno studente di fisica presso
           l&apos;Università di Padova.
@@ -34,14 +34,13 @@ const HomePage = () => {
 }
 
 const FormFree = styled('div', {
-  padding: '1em 0em',
+  padding: '1rem 0',
   '& p': {
     color: '#202020',
     fontFamily: 'sans-serif',
-    fontSize: '1.1rem',
+    fontSize: '18px',
     textAlign: 'justify',
-    textJustify: 'inter-word',
-    marginBlockEnd: '0.7rem',
+    lineHeight: '1.5',
   },
   '& p a': {
     wordBreak: 'break-all',

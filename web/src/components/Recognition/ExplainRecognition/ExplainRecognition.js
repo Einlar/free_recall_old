@@ -1,10 +1,12 @@
 import presentationGif from './img/presentation_ita_random.gif'
 import recoGif from './img/reco_ita_random.gif'
+import { MainContainer, CenterImage } from 'src/components/Recall/ExplainRecall'
+import { Button } from 'src/components/ui/Button'
 
 const ExplainRecognition = ({ nextStep }) => {
   // nextStep: callback to navigate to the next step in the experiment
   return (
-    <div className="main_container">
+    <MainContainer className="main_container">
       <p>
         In questo esperimento è richiesta la tua <b>piena attenzione</b> per
         circa <b>5 minuti</b>, perciò scegli un ambiente
@@ -18,12 +20,12 @@ const ExplainRecognition = ({ nextStep }) => {
           </p>
         </li>
       </ul>
-      <span>
+      <CenterImage>
         <img
           src={presentationGif}
           alt="Esempio di presentazione delle parole"
         />
-      </span>
+      </CenterImage>
       <p>
         Cerca di ricordarne il <b>maggior numero possibile</b>!
       </p>
@@ -43,9 +45,9 @@ const ExplainRecognition = ({ nextStep }) => {
           </span>
         </li>
       </ul>
-      <p>
+      <CenterImage>
         <img src={recoGif} alt="Esempio di riconoscimento parole" />
-      </p>
+      </CenterImage>
       <span>
         <p>
           <b>Nota:</b> Questo compito è <b>molto difficile</b>: le parole sono{' '}
@@ -63,10 +65,12 @@ const ExplainRecognition = ({ nextStep }) => {
           .
         </p>
       </span>
-      <button type="button" onClick={() => nextStep()}>
-        Comincia l&apos;Esperimento
-      </button>
-    </div>
+      <CenterImage>
+        <Button type="button" onClick={() => nextStep()}>
+          Comincia l&apos;Esperimento
+        </Button>
+      </CenterImage>
+    </MainContainer>
   )
 }
 
