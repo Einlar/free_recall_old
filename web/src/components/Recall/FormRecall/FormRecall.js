@@ -4,6 +4,7 @@ import { navigate, routes } from '@redwoodjs/router'
 import Timer from './Timer'
 import { Button } from 'src/components/ui/Button'
 import { styled } from 'src/ui/stitches.config'
+import { CenterImage } from '../ExplainRecall'
 
 const ADD_RECORD = gql`
   mutation FormRecall_CreateRecallRecord($input: CreateRecallRecordInput!) {
@@ -19,10 +20,6 @@ const ADD_RECORD = gql`
 `
 
 const FormRecall = ({ subjectId, presentedWords, categories = [] }) => {
-  useEffect(() => {
-    console.log('render')
-  }, [])
-  // const userData = JSON.parse(localStorage.getItem('userData'))
   const [experimentStartTime] = useState(+new Date()) //Start of the experiment
   const [words, setWords] = useState([]) //All recalled words
   //Schema:
@@ -45,10 +42,6 @@ const FormRecall = ({ subjectId, presentedWords, categories = [] }) => {
   const [submit, setSubmit] = useState(false) //Trigger a submit
 
   const [createRecord] = useMutation(ADD_RECORD)
-
-  useEffect(() => {
-    console.log(words)
-  }, [words])
 
   useEffect(() => {
     if (submit) {
@@ -79,8 +72,6 @@ const FormRecall = ({ subjectId, presentedWords, categories = [] }) => {
           },
         })
       }
-
-      console.log('got words: ', allWords)
 
       navigate(routes.thankYou())
     }
@@ -137,27 +128,34 @@ const FormRecall = ({ subjectId, presentedWords, categories = [] }) => {
 
   return (
     <WrapForm id="wrapform">
-      <p>
-        Scrivi tutte le parole che ricordi, in un <b>ordine qualsiasi</b>. Premi{' '}
-        <b>INVIO</b> (o barra spaziatrice) dopo ogni parola inserita.
-      </p>
-      <p>
-        Se non ne ricordi altre, puoi concludere in anticipo facendo click su{' '}
-        <i>Termina Esperimento</i>
-      </p>
+      <div style={{ width: '100%' }}>
+        <p>
+          Scrivi tutte le parole che ricordi, in un <b>ordine qualsiasi</b>.
+          Premi <b>INVIO</b> (o barra spaziatrice) dopo ogni parola inserita.
+        </p>
+        <p>
+          Se non ne ricordi altre, puoi concludere in anticipo facendo click su{' '}
+          <i>Termina Esperimento</i>.
+        </p>
+      </div>
       <Timer countdownSeconds={6 * 60} endTask={() => setSubmit(true)} />
-      <EnterWord
-        id="enterword"
-        maxLength="40"
-        spellCheck="false"
-        type="text"
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-        onKeyDown={recordKeyDown}
-      />
-      <Button type="button" onClick={() => setSubmit(true)}>
-        Termina l&apos;esperimento.
-      </Button>
+      <form autoComplete="off">
+        <input autoComplete="false" type="text" style={{ display: 'none' }} />
+        <EnterWord
+          id="enterword"
+          maxLength="40"
+          spellCheck="false"
+          type="text"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          onKeyDown={recordKeyDown}
+        />
+        <CenterImage>
+          <Button type="button" onClick={() => setSubmit(true)}>
+            Termina l&apos;esperimento.
+          </Button>
+        </CenterImage>
+      </form>
     </WrapForm>
   )
 }
@@ -177,7 +175,8 @@ const WrapForm = styled('div', {
 const EnterWord = styled('input', {
   border: '0px',
   outline: 'none',
-  fontSize: '2rem',
+  fontSize: '40px',
+  lineHeight: '1.5',
   fontWeight: '400',
   color: '#383838',
   textAlign: 'center',
@@ -186,7 +185,7 @@ const EnterWord = styled('input', {
   boxShadow: '1px 0px rgb(237, 138, 117)',
   width: '100%',
   margin: '2rem 0',
-  padding: '.5rem 0',
+  padding: '1rem 0',
 })
 
 export default FormRecall

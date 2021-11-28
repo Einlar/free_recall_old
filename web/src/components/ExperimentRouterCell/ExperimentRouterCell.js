@@ -4,13 +4,21 @@ import ExplainRecognition from 'src/components/Recognition/ExplainRecognition'
 import FormRecall from 'src/components/Recall/FormRecall'
 import FormRecognition from 'src/components/Recognition/FormRecognition'
 
+import { Spinner } from 'src/components/ui/Spinner'
+import { Container } from 'src/components/SkeletonLoader'
+
 export const QUERY = gql`
   query FetchExperimentData($email: String!, $age: Int!, $gender: Gender!) {
     getExperiment(email: $email, age: $age, gender: $gender)
   }
 `
 
-export const Loading = () => <div>Loading...</div>
+export const Loading = () => (
+  <Container>
+    <p>Sto caricando l&apos;esperimento...</p>
+    <Spinner />
+  </Container>
+)
 
 export const Empty = () => <div>Empty</div>
 

@@ -72,6 +72,7 @@ export const MainContainer = styled('div', {
   margin: 'auto',
   maxWidth: '90%',
   fontSize: '18px',
+  lineHeight: '1.5',
 })
 
 export const CenterImage = styled('div', {

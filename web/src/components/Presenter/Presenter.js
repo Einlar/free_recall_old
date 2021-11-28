@@ -5,10 +5,6 @@ const Presenter = ({ wordList, endPresentation }) => {
   const [index, setIndex] = useState(0)
   const [show, setShow] = useState(false)
 
-  useEffect(() => {
-    console.log(wordList)
-  }, [wordList])
-
   //Show a word for 1s
   const showWord = () => {
     setShow(true)
@@ -23,7 +19,7 @@ const Presenter = ({ wordList, endPresentation }) => {
 
   //Show all words, one at a time, and call `endPresentation` at the end
   useEffect(() => {
-    if (index < wordList.length / 64) {
+    if (index < wordList.length) {
       setTimeout(showWord, 500)
     } else {
       setTimeout(endPresentation, 1000)
@@ -44,6 +40,7 @@ const Container = styled('div', {
 })
 
 const PresentWord = styled('div', {
+  height: '40px',
   fontSize: '40px',
   fontWeight: 400,
   textAlign: 'center',
