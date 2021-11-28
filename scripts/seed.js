@@ -7,32 +7,53 @@ import wordCategories from './data/whole_categories.json'
 
 export default async () => {
   console.info('Resetting WordLists...')
-  db.wordList.deleteMany({})
+
+  let wordListId = 0
 
   console.log('Seeding random words...')
-  const result = await db.wordList.createMany({
-    data: randomWords.map((obj) => ({
-      ...obj,
-      type: ListType.RANDOM,
-    })),
-  })
-  console.log(`Seeded ${result.count} random lists\n`)
+  for (let i = 0; i < randomWords.length; i++) {
+    await db.wordList.upsert({
+      where: { id: i },
+      create: {
+        ...randomWords[i],
+        type: ListType.RANDOM,
+      },
+      update: {
+        ...randomWords[i],
+        type: ListType.RANDOM,
+      },
+    })
+  }
 
+  wordListId += randomWords.length
   console.log('Seeding categorized words...')
-  const result2 = await db.wordList.createMany({
-    data: categorizedWords.map((obj) => ({
-      ...obj,
-      type: ListType.CATEGORIZED,
-    })),
-  })
-  console.log(`Seeded ${result2.count} categorized lists\n`)
+  for (let i = 0; i < categorizedWords.length; i++) {
+    await db.wordList.upsert({
+      where: { id: i + wordListId },
+      create: {
+        ...categorizedWords[i],
+        type: ListType.CATEGORIZED,
+      },
+      update: {
+        ...categorizedWords[i],
+        type: ListType.CATEGORIZED,
+      },
+    })
+  }
+  wordListId += categorizedWords.length
 
   console.log('Seeding categories...')
-  const result3 = await db.wordList.createMany({
-    data: wordCategories.map((obj) => ({
-      ...obj,
-      type: ListType.CATEGORY,
-    })),
-  })
-  console.log(`Seeded ${result3.count} categories\n`)
+  for (let i = 0; i < wordCategories.length; i++) {
+    await db.wordList.upsert({
+      where: { id: i + wordListId },
+      create: {
+        ...wordCategories[i],
+        type: ListType.CATEGORY,
+      },
+      update: {
+        ...wordCategories[i],
+        type: ListType.CATEGORY,
+      },
+    })
+  }
 }
