@@ -1,6 +1,5 @@
 import { db } from 'src/lib/db'
 import { ListType, RecordType } from '@prisma/client'
-import shuffle from 'lodash'
 
 export const wordLists = () => {
   return db.wordList.findMany()
@@ -21,6 +20,7 @@ const getLastExperimentType = async ({ subjectId }) => {
         select: {
           type: true,
           categories: true,
+          length: true,
         },
         take: 1,
       },
@@ -43,7 +43,11 @@ const getLastExperimentType = async ({ subjectId }) => {
 //Returns a random list of words from the ones existing in the db.
 //Can be either `categorized` or not, and must not include the categories
 //in `avoidCategories`
-const getWordlist = async ({ categorized = false, avoidCategories = [] }) => {
+const getWordlist = async ({
+  categorized = false,
+  avoidCategories = [],
+  length = 64,
+}) => {
   const listPool = await db.wordList.findMany({
     where: {
       type: categorized ? ListType.CATEGORIZED : ListType.RANDOM,
@@ -52,6 +56,7 @@ const getWordlist = async ({ categorized = false, avoidCategories = [] }) => {
           hasSome: avoidCategories,
         },
       },
+      length,
     },
     select: {
       id: true,
@@ -150,6 +155,8 @@ export const getExperiment = async ({ email, age, gender }) => {
   let avoidCategories = []
   const lastExperiments = (await getLastExperimentType({ subjectId })).records
   let categorized = Math.floor(Math.random() * 2) === 0
+  const lengths = [8, 16, 32, 64]
+  let length = lengths[Math.floor(Math.random() * lengths.length)]
 
   console.log('Last experiments', lastExperiments)
   if (lastExperiments && lastExperiments.length > 0) {
@@ -160,7 +167,12 @@ export const getExperiment = async ({ email, age, gender }) => {
         ? RecordType.RECOGNITION
         : RecordType.RECALL
     avoidCategories = lastExperiments[0].categories
-    categorized = lastExperiments[0].categories.length > 0
+
+    if (experimentType === RecordType.RECOGNITION) {
+      //Maintain previous length & categorized if this is the second part
+      categorized = lastExperiments[0].categories.length > 0
+      length = lastExperiments[0].length
+    }
   }
 
   console.log('New experiment will be of type: ', experimentType)
@@ -168,14 +180,14 @@ export const getExperiment = async ({ email, age, gender }) => {
     `Choosing a new list with (categorized: ${categorized}, avoidCategories: ${avoidCategories})`
   )
 
-  const wordList = await getWordlist({ categorized, avoidCategories })
+  const wordList = await getWordlist({ categorized, avoidCategories, length })
 
   if (experimentType === RecordType.RECALL) {
     return {
       subjectId,
       experimentType,
       categorized,
-      words: shuffle(wordList.words), //Shuffle words
+      words: wordList.words,
       categories: wordList.categories,
     }
   }
@@ -210,7 +222,7 @@ export const getExperiment = async ({ email, age, gender }) => {
       subjectId,
       experimentType,
       categorized,
-      words: shuffle(wordList.words),
+      words: wordList.words,
       categories: wordList.categories,
     }
   }

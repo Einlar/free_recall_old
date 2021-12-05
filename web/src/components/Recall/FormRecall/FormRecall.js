@@ -64,6 +64,7 @@ const FormRecall = ({ subjectId, presentedWords, categories = [] }) => {
           variables: {
             input: {
               words: allWords,
+              length: presentedWords.length,
               subjectId: subjectId,
               type: 'RECALL',
               presentedWords: presentedWords.map((item) => item.word),
@@ -138,7 +139,10 @@ const FormRecall = ({ subjectId, presentedWords, categories = [] }) => {
           <i>Termina Esperimento</i>.
         </p>
       </div>
-      <Timer countdownSeconds={6 * 60} endTask={() => setSubmit(true)} />
+      <Timer
+        countdownSeconds={Math.round(Math.log2(presentedWords.length / 4) * 90)}
+        endTask={() => setSubmit(true)}
+      />
       <form autoComplete="off">
         <input autoComplete="false" type="text" style={{ display: 'none' }} />
         <EnterWord

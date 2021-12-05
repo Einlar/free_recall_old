@@ -2,6 +2,7 @@ import { useMutation } from '@redwoodjs/web'
 import { useState, useEffect } from 'react'
 import { navigate, routes } from '@redwoodjs/router'
 
+import { shuffle } from 'lodash'
 import { styled } from '@stitches/react'
 
 const ADD_RECORD = gql`
@@ -23,6 +24,7 @@ const ADD_RECORD = gql`
 const FormRecognition = ({ subjectId, presentedWords, categories = [] }) => {
   const [createRecord] = useMutation(ADD_RECORD)
 
+  const [shuffledWords] = useState(shuffle(presentedWords))
   const [experimentStartTime] = useState(+new Date())
   const [index, setIndex] = useState(0)
   const [answers, setAnswers] = useState([])
@@ -30,8 +32,8 @@ const FormRecognition = ({ subjectId, presentedWords, categories = [] }) => {
   const getWord = (idx) => {
     const topIsTrue = Math.floor(Math.random() * 2) === 0
     return {
-      trueWord: presentedWords[idx].word,
-      falseWord: presentedWords[idx].distractor.word,
+      trueWord: shuffledWords[idx].word,
+      falseWord: shuffledWords[idx].distractor.word,
       topIsTrue,
     }
   }
@@ -39,22 +41,25 @@ const FormRecognition = ({ subjectId, presentedWords, categories = [] }) => {
   const [word, setWord] = useState(getWord(0))
 
   //Record an answer and advance to the next pair of words
-  const advance = () => {
+  const advance = (answer) => {
     const currentTime = +new Date() - experimentStartTime
+
+    //convert answer to
     const newAnswer = {
       ...word,
       time: currentTime / 1000,
+      answer,
     }
 
     setAnswers((prevAnswers) => [...prevAnswers, newAnswer])
-    if (index < presentedWords.length - 1) {
+    if (index < shuffledWords.length - 1) {
       setWord(getWord(index + 1))
       setIndex((prevIndex) => prevIndex + 1)
     }
   }
 
   useEffect(() => {
-    if (answers.length === presentedWords.length) {
+    if (answers.length === shuffledWords.length) {
       onSubmit()
     }
   }, [answers])
@@ -66,6 +71,7 @@ const FormRecognition = ({ subjectId, presentedWords, categories = [] }) => {
           type: 'RECOGNITION',
           subjectId,
           categories,
+          length: presentedWords.length,
           presentedWords: presentedWords.map((item) => item.word),
           words: answers,
         },
@@ -79,13 +85,17 @@ const FormRecognition = ({ subjectId, presentedWords, categories = [] }) => {
         <ButtonReco
           type="button"
           className="buttonreco"
-          onClick={advance}
+          onClick={() =>
+            advance(word.topIsTrue ? word.trueWord : word.falseWord)
+          }
           value={word.topIsTrue ? word.trueWord : word.falseWord}
         />
         <ButtonReco
           type="button"
           className="buttonreco"
-          onClick={advance}
+          onClick={() =>
+            advance(word.topIsTrue ? word.falseWord : word.trueWord)
+          }
           value={word.topIsTrue ? word.falseWord : word.trueWord}
         />
       </RecoBox>

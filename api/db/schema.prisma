@@ -20,6 +20,7 @@ model RecallRecord {
   id             Int        @id @default(autoincrement())
   createdAt      DateTime   @default(now())
   type           RecordType
+  length         Int
   presentedWords String[]
   words          Json[] //Recalled or recognized words
   categories     String[]

@@ -17,10 +17,12 @@ export default async () => {
       create: {
         ...randomWords[i],
         type: ListType.RANDOM,
+        categories: [],
       },
       update: {
         ...randomWords[i],
         type: ListType.RANDOM,
+        categories: [],
       },
     })
   }

@@ -3,6 +3,7 @@ export const schema = gql`
     id: Int!
     createdAt: DateTime!
     type: RecordType!
+    length: Int!
     presentedWords: [String]!
     words: [JSON]!
     subject: Subject!
@@ -20,6 +21,7 @@ export const schema = gql`
 
   input CreateRecallRecordInput {
     type: RecordType!
+    length: Int!
     presentedWords: [String]!
     words: [JSON]!
     categories: [String]
@@ -28,6 +30,7 @@ export const schema = gql`
 
   input UpdateRecallRecordInput {
     type: RecordType
+    length: Int
     presentedWords: [String]!
     words: [JSON]!
     categories: [String]
