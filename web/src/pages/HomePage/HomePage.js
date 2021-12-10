@@ -2,7 +2,7 @@ import { MetaTags } from '@redwoodjs/web'
 import { styled } from '@stitches/react'
 import SubjectData from 'src/components/SubjectData'
 
-const HomePage = () => {
+const HomePage = ({ type = 'A' }) => {
   return (
     <>
       <MetaTags
@@ -13,21 +13,7 @@ const HomePage = () => {
       />
 
       <FormFree>
-        <p style={{ fontSize: '24px' }}> Ciao! </p>
-        <p>
-          Sono Francesco Manzali, uno studente di fisica presso
-          l&apos;Università di Padova.
-        </p>
-        <p>
-          Come parte della mia tesi magistrale, ricerco semplici leggi che
-          spieghino come la mente umana richiami i ricordi.
-        </p>
-        <p>
-          A tal proposito, propongo il seguente esperimento. Si tratta di un
-          compito di memoria, che richiederà la tua attenzione per meno di 10
-          minuti.
-        </p>
-        <SubjectData />
+        <SubjectData type={type} />
       </FormFree>
     </>
   )

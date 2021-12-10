@@ -15,6 +15,7 @@ export const schema = gql`
 
   type Query {
     subjects: [Subject!]! @requireAuth
+    allStats: JSON @skipAuth
     subjectsExperimentStarted: JSON @skipAuth
     subjectsExperimentCompleted: JSON @skipAuth
   }

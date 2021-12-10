@@ -11,7 +11,7 @@ const checkUserData = () => {
   return userData && userData.email && userData.age && userData.gender
 }
 
-const ExperimentPage = () => {
+const ExperimentPage = ({ type }) => {
   return checkUserData() ? (
     <>
       <MetaTags
@@ -20,7 +20,10 @@ const ExperimentPage = () => {
         /* you should un-comment description and add a unique description, 155 characters or less
       You can look at this documentation for best practices : https://developers.google.com/search/docs/advanced/appearance/good-titles-snippets */
       />
-      <ExperimentRouterCell {...JSON.parse(localStorage.getItem('userData'))} />
+      <ExperimentRouterCell
+        {...JSON.parse(localStorage.getItem('userData'))}
+        type={type}
+      />
     </>
   ) : (
     <Redirect to={routes.home()} />

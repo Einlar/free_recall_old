@@ -14,7 +14,13 @@ export const schema = gql`
 
   type Query {
     wordLists: [WordList!]! @requireAuth
-    getExperiment(email: String!, age: Int!, gender: Gender!): JSON @skipAuth
+    getExperiment(
+      email: String!
+      age: Int!
+      gender: Gender!
+      lengths: [Int]
+      defaultCategorized: Boolean
+    ): JSON @skipAuth
   }
 
   input CreateWordListInput {

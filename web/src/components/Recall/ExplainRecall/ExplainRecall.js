@@ -1,6 +1,7 @@
 import presentationGif from './img/presentation_ita_random.gif'
 import recallGif from './img/recall_ita_random.gif'
 import { Button } from 'src/components/ui/Button'
+import { StyledLink } from 'src/components/ui/StyledLink'
 import { styled } from 'src/ui/stitches.config'
 
 const ExplainRecall = ({ nextStep }) => {
@@ -49,12 +50,12 @@ const ExplainRecall = ({ nextStep }) => {
         </p>
         <p>
           Per qualsiasi domanda/feedback puoi contattarmi a{' '}
-          <a
+          <StyledLink
             className="linkfree"
             href="mailto:francesco.manzali@studenti.unipd.it"
           >
             francesco.manzali@studenti.unipd.it
-          </a>
+          </StyledLink>
           .
         </p>
       </span>

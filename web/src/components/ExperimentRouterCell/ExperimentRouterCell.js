@@ -9,9 +9,36 @@ import { Container } from 'src/components/SkeletonLoader'
 
 import { shuffle } from 'lodash'
 
+export const beforeQuery = (props) => {
+  const { type, ...otherProps } = props
+  if (type === 'B') {
+    otherProps['lengths'] = [8, 16, 32]
+    otherProps['defaultCategorized'] = true
+  } else {
+    otherProps['lengths'] = [64]
+    otherProps['defaultCategorized'] = null
+  }
+
+  console.log(props)
+
+  return { variables: otherProps }
+}
+
 export const QUERY = gql`
-  query FetchExperimentData($email: String!, $age: Int!, $gender: Gender!) {
-    getExperiment(email: $email, age: $age, gender: $gender)
+  query FetchExperimentData(
+    $email: String!
+    $age: Int!
+    $gender: Gender!
+    $lengths: [Int]
+    $defaultCategorized: Boolean
+  ) {
+    getExperiment(
+      email: $email
+      age: $age
+      gender: $gender
+      lengths: $lengths
+      defaultCategorized: $defaultCategorized
+    )
   }
 `
 

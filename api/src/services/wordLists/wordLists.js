@@ -114,7 +114,13 @@ const getAllRandomWords = async () => {
   }, [])
 }
 
-export const getExperiment = async ({ email, age, gender }) => {
+export const getExperiment = async ({
+  email,
+  age,
+  gender,
+  lengths = [8, 16, 32, 64],
+  defaultCategorized = null,
+}) => {
   //Retrieve subjectId
   let subjectId = await db.subject.findFirst({
     where: {
@@ -155,7 +161,11 @@ export const getExperiment = async ({ email, age, gender }) => {
   let avoidCategories = []
   const lastExperiments = (await getLastExperimentType({ subjectId })).records
   let categorized = Math.floor(Math.random() * 2) === 0
-  const lengths = [8, 16, 32, 64]
+  if (typeof defaultCategorized === 'boolean') {
+    categorized = defaultCategorized
+    console.log(`Default categorized to ${defaultCategorized}`)
+  }
+
   let length = lengths[Math.floor(Math.random() * lengths.length)]
 
   console.log('Last experiments', lastExperiments)
@@ -177,7 +187,7 @@ export const getExperiment = async ({ email, age, gender }) => {
 
   console.log('New experiment will be of type: ', experimentType)
   console.log(
-    `Choosing a new list with (categorized: ${categorized}, avoidCategories: ${avoidCategories})`
+    `Choosing a new list with (categorized: ${categorized}, avoidCategories: ${avoidCategories}), length: ${length}`
   )
 
   const wordList = await getWordlist({ categorized, avoidCategories, length })

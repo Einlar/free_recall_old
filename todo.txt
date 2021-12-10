@@ -1,0 +1,7 @@
+-Separate URL for L = 64 from the one of 32/16/8 [OK]
+  There is now `/A` and `/B`. The first is L=64 only, with categorized/random uniform
+  Then `/B` is L=32/16/8 (uniform) but only categorized
+-Only categorized for L=32/16/8 [OK]
+-Stats for each list length & random/categorized (for L=64) [TODO]
+-Remove/Update experiment info => Only fields in the landing page,
+-Check stability of db => Retry cell when there is a random connection error https://community.redwoodjs.com/t/rw-patterns-for-common-usecases/937

@@ -2,6 +2,7 @@ import presentationGif from './img/presentation_ita_random.gif'
 import recoGif from './img/reco_ita_random.gif'
 import { MainContainer, CenterImage } from 'src/components/Recall/ExplainRecall'
 import { Button } from 'src/components/ui/Button'
+import { StyledLink } from 'src/components/ui/StyledLink'
 
 const ExplainRecognition = ({ nextStep }) => {
   // nextStep: callback to navigate to the next step in the experiment
@@ -9,7 +10,7 @@ const ExplainRecognition = ({ nextStep }) => {
     <MainContainer className="main_container">
       <p>
         In questo esperimento è richiesta la tua <b>piena attenzione</b> per
-        circa <b>5 minuti</b>, perciò scegli un ambiente
+        circa <b>5 minuti</b>, perciò scegli un ambiente{' '}
         <b>privo di distrazioni</b>.
       </p>
       <ul>
@@ -56,12 +57,12 @@ const ExplainRecognition = ({ nextStep }) => {
         </p>
         <p>
           Per qualsiasi domanda/feedback puoi contattarmi a{' '}
-          <a
+          <StyledLink
             className="linkfree"
             href="mailto:francesco.manzali@studenti.unipd.it"
           >
             francesco.manzali@studenti.unipd.it
-          </a>
+          </StyledLink>
           .
         </p>
       </span>

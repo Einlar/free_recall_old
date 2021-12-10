@@ -7,6 +7,7 @@ import {
   NumberField,
 } from '@redwoodjs/forms'
 import { globalCss } from '@stitches/react'
+import { StyledLink } from 'src/components/ui/StyledLink'
 import { styled } from 'src/ui/stitches.config'
 
 const SubjectForm = ({ onSubmit: submitCallback }) => {
@@ -22,9 +23,9 @@ const SubjectForm = ({ onSubmit: submitCallback }) => {
       <p>
         Inserisci qui sotto alcune info di base, che userò solamente per
         differenziare gli esperimenti. Per qualsiasi domanda, puoi scrivere a{' '}
-        <a href="mailto:francesco.manzali@studenti.unipd.it">
+        <StyledLink href="mailto:francesco.manzali@studenti.unipd.it">
           francesco.manzali@studenti.unipd.it
-        </a>
+        </StyledLink>
         .
       </p>
 

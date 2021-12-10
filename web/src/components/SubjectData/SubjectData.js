@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { navigate, routes } from '@redwoodjs/router'
 import { styled } from 'src/ui/stitches.config'
 
-const SubjectData = () => {
+const SubjectData = ({ type = 'A' }) => {
   const userData =
     localStorage.getItem('userData') &&
     JSON.parse(localStorage.getItem('userData'))
@@ -23,7 +23,7 @@ const SubjectData = () => {
     NON_BINARY: 'Altro',
   }
   const goNext = () => {
-    navigate(routes.experiment())
+    navigate(routes.experiment({ type }))
   }
 
   const clearData = () => {
