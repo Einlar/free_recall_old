@@ -16,7 +16,7 @@ const ExplainRecognition = ({ nextStep }) => {
       <ul>
         <li>
           <p>
-            Una volta iniziato l&apos;esperimento, ti sarà mostrata una
+            Una volta iniziato l&apos;esperimento, ti sarà mostrata una{' '}
             <b>serie di parole</b>, una dopo l&apos;altra:
           </p>
         </li>
@@ -34,7 +34,7 @@ const ExplainRecognition = ({ nextStep }) => {
         <li>
           <span>
             <p>
-              <b>Dopo</b> la presentazione, ti saranno mostrate delle
+              <b>Dopo</b> la presentazione, ti saranno mostrate delle{' '}
               <b>coppie di parole</b>. In ogni coppia, una parola è presa dalla
               lista che hai appena visto, mentre l&apos;altra non c&apos;entra
               nulla.
