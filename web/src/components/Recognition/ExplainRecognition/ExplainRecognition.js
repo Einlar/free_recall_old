@@ -56,12 +56,15 @@ const ExplainRecognition = ({ nextStep }) => {
           dover tirare a indovinare.
         </p>
         <p>
+          <b>Nota:</b> Eseguendo l'esperimento da telefono, è considerato orientare lo schermo orizzontalmente.
+        </p>
+        <p>
           Per qualsiasi domanda/feedback puoi contattarmi a{' '}
           <StyledLink
             className="linkfree"
-            href="mailto:francesco.manzali@studenti.unipd.it"
+            href="mailto:manzali.francesco97@gmail.com"
           >
-            francesco.manzali@studenti.unipd.it
+            manzali.francesco97@gmail.com
           </StyledLink>
           .
         </p>

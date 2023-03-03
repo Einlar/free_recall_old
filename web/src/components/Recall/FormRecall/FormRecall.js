@@ -132,7 +132,7 @@ const FormRecall = ({ subjectId, presentedWords, categories = [] }) => {
       <div style={{ width: '100%' }}>
         <p>
           Scrivi tutte le parole che ricordi, in un <b>ordine qualsiasi</b>.
-          Premi <b>INVIO</b> (o barra spaziatrice) dopo ogni parola inserita.
+          Premi <b>INVIO</b> (o barra spaziatrice) <b>dopo ogni parola inserita</b>.
         </p>
         <p>
           Se non ne ricordi altre, puoi concludere in anticipo facendo click su{' '}
